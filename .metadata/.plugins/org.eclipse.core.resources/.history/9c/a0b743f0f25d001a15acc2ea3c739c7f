@@ -1,0 +1,12 @@
+package com.tumorteller.models;
+
+
+public class Doctor extends User {
+
+	
+	
+	
+	
+	
+	
+}

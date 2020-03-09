@@ -1,0 +1,5 @@
+package com.tumorteller.models;
+
+public interface UserManager {
+
+}

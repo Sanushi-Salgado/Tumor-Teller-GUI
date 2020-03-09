@@ -1,0 +1,18 @@
+package com.tumorteller.models;
+
+
+public class Doctor extends User {
+
+	
+	public void viewPatientReport() {
+		
+	}
+	
+	public void exportPatientReport() {
+		
+	}
+	
+	
+	
+	
+}

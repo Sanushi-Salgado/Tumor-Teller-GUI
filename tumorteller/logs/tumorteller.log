@@ -1,0 +1,1547 @@
+2020-02-13 02:26:50 [JavaFX Application Thread] INFO  HelloFX:18 - This is an info message
+2020-02-13 02:26:50 [JavaFX Application Thread] INFO  HelloFX:20 - Info Message Logged !!!
+2020-02-13 02:26:50 [JavaFX Application Thread] ERROR HelloFX:21 - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.tumorteller.ui.HelloFX.start(HelloFX.java:21) ~[classes/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2020-02-13 02:30:28 [JavaFX Application Thread] INFO  HelloFX:18 - This is an info message
+2020-02-13 02:30:28 [JavaFX Application Thread] INFO  HelloFX:20 - Info Message Logged !!!
+2020-02-13 02:30:28 [JavaFX Application Thread] ERROR HelloFX:21 - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.tumorteller.ui.HelloFX.start(HelloFX.java:21) ~[classes/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2020-02-17 13:03:11 [JavaFX Application Thread] INFO  Main:18 - This is an info message
+2020-02-17 13:03:11 [JavaFX Application Thread] INFO  Main:20 - Info Message Logged !!!
+2020-02-17 13:03:11 [JavaFX Application Thread] ERROR Main:21 - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at com.tumorteller.ui.Main.start(Main.java:21) ~[classes/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$161(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$174(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$172(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_181]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$173(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$147(WinApplication.java:177) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2020-02-17 20:36:57 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 20:51:53 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:20:03 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:22:02 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:26:16 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:26:16 [main] INFO  cluster:71 - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2020-02-17 21:26:16 [cluster-ClusterId{value='5e4ab7a04299762b183c2b83', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+2020-02-17 21:26:16 [cluster-ClusterId{value='5e4ab7a04299762b183c2b83', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=800089}
+2020-02-17 21:26:16 [main] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:9}] to localhost:27017
+2020-02-17 21:27:57 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:27:57 [main] INFO  cluster:71 - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, all=[ServerDescription{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2020-02-17 21:27:57 [cluster-ClusterId{value='5e4ab80442997637e8be5ba3', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:10}] to localhost:27017
+2020-02-17 21:27:57 [cluster-ClusterId{value='5e4ab80442997637e8be5ba3', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=735208}
+2020-02-17 21:27:57 [main] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:11}] to localhost:27017
+2020-02-17 21:35:41 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:35:41 [main] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-02-17 21:35:41 [cluster-ClusterId{value='5e4ab9d54299761394ecaec1', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:12}] to localhost:27017
+2020-02-17 21:35:41 [cluster-ClusterId{value='5e4ab9d54299761394ecaec1', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=658690}
+2020-02-17 21:36:30 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:36:30 [main] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-02-17 21:36:30 [cluster-ClusterId{value='5e4aba054299762d104d13d2', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+2020-02-17 21:36:30 [cluster-ClusterId{value='5e4aba054299762d104d13d2', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=668563}
+2020-02-17 21:36:38 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:36:38 [main] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-02-17 21:36:40 [cluster-ClusterId{value='5e4aba0e42997645c03d15ae', description='null'}-localhost:27017] INFO  cluster:76 - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127) [mongo-java-driver-3.0.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58) ~[mongo-java-driver-3.0.4.jar:?]
+	... 3 more
+2020-02-17 21:38:27 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:38:27 [main] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-02-17 21:38:28 [cluster-ClusterId{value='5e4aba7a42997600bc116ebc', description='null'}-localhost:27017] INFO  cluster:76 - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127) [mongo-java-driver-3.0.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58) ~[mongo-java-driver-3.0.4.jar:?]
+	... 3 more
+2020-02-17 21:44:25 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:44:25 [main] INFO  Database:24 - Connected to the database successfully
+2020-02-17 21:44:25 [main] INFO  Database:28 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-02-17 21:44:25 [main] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-02-17 21:44:26 [cluster-ClusterId{value='5e4abbe14299761ca4f47f6e', description='null'}-localhost:27017] INFO  cluster:76 - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127) [mongo-java-driver-3.0.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58) ~[mongo-java-driver-3.0.4.jar:?]
+	... 3 more
+2020-02-17 21:44:55 [main] ERROR Database:34 - Failed to connect to the database
+2020-02-17 21:45:36 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 21:45:36 [main] INFO  Database:24 - Connected to the database successfully
+2020-02-17 21:45:36 [main] INFO  Database:28 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-02-17 21:45:36 [main] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-02-17 21:45:36 [cluster-ClusterId{value='5e4abc284299760608a00b07', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2020-02-17 21:45:36 [cluster-ClusterId{value='5e4abc284299760608a00b07', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=617081}
+2020-02-17 21:45:36 [main] INFO  Database:32 - Connected to the database successfully
+2020-02-17 22:12:40 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-17 22:12:40 [JavaFX Application Thread] INFO  Database:27 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-02-17 22:12:40 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-02-17 22:12:40 [cluster-ClusterId{value='5e4ac2804299764d708ec003', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:6}] to localhost:27017
+2020-02-17 22:12:40 [cluster-ClusterId{value='5e4ac2804299764d708ec003', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=853335}
+2020-02-17 22:12:40 [JavaFX Application Thread] INFO  Database:31 - Connected to the database successfully
+2020-02-17 22:12:40 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:7}] to localhost:27017
+2020-02-18 00:41:28 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-18 00:41:28 [main] INFO  Database:53 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-02-18 00:41:28 [main] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-02-18 00:41:28 [cluster-ClusterId{value='5e4ae5600d79761944f8e911', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:8}] to localhost:27017
+2020-02-18 00:41:28 [cluster-ClusterId{value='5e4ae5600d79761944f8e911', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=671737}
+2020-02-18 00:41:28 [main] INFO  Database:57 - Connected to the database successfully
+2020-02-18 00:42:25 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-02-18 00:42:25 [main] INFO  Database:53 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-02-18 00:42:25 [main] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-02-18 00:42:26 [cluster-ClusterId{value='5e4ae5990d7976414082551f', description='null'}-localhost:27017] INFO  cluster:76 - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127) [mongo-java-driver-3.0.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58) ~[mongo-java-driver-3.0.4.jar:?]
+	... 3 more
+2020-02-18 00:42:55 [main] ERROR Database:59 - Failed to connect to the database
+2020-02-18 01:26:10 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-02-18 01:26:28 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-02-18 01:27:18 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-02-18 01:28:45 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-02-18 01:29:36 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-02-18 01:31:29 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-02 22:31:17 [main] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-02 22:31:17 [main] INFO  Database:53 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-02 22:31:17 [main] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-02 22:31:17 [cluster-ClusterId{value='5e5d3bdd2e6f44509c4053e7', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2020-03-02 22:31:17 [cluster-ClusterId{value='5e5d3bdd2e6f44509c4053e7', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=779638}
+2020-03-02 22:31:17 [main] INFO  Database:57 - Connected to the database successfully
+2020-03-03 00:02:32 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 00:04:17 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 00:05:04 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 00:05:33 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 00:09:10 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 00:37:14 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 00:48:54 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 00:49:11 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 00:52:36 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 00:55:55 [JavaFX Application Thread] INFO  Main:26 - Application started
+2020-03-03 01:07:00 [JavaFX Application Thread] INFO  Main:29 - Application started
+2020-03-03 02:11:07 [JavaFX Application Thread] ERROR RegisterController:63 - Invalid username or password
+2020-03-03 02:11:20 [JavaFX Application Thread] ERROR RegisterController:67 - Received valid username & password
+2020-03-03 02:11:21 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 02:11:21 [JavaFX Application Thread] INFO  Database:69 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 02:11:21 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 02:11:21 [cluster-ClusterId{value='5e5d6f712e6f443c5877d92b', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:4}] to localhost:27017
+2020-03-03 02:11:21 [cluster-ClusterId{value='5e5d6f712e6f443c5877d92b', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=695363}
+2020-03-03 02:11:21 [JavaFX Application Thread] INFO  Database:73 - Connected to the database successfully
+2020-03-03 02:11:54 [JavaFX Application Thread] ERROR RegisterController:63 - Invalid username or password
+2020-03-03 02:12:00 [JavaFX Application Thread] ERROR RegisterController:63 - Invalid username or password
+2020-03-03 02:12:10 [JavaFX Application Thread] ERROR RegisterController:67 - Received valid username & password
+2020-03-03 02:12:42 [JavaFX Application Thread] ERROR RegisterController:67 - Received valid username & password
+2020-03-03 02:19:22 [JavaFX Application Thread] ERROR RegisterController:70 - Received valid username & password
+2020-03-03 02:20:16 [JavaFX Application Thread] ERROR RegisterController:71 - Received valid username & password
+2020-03-03 02:20:56 [JavaFX Application Thread] ERROR RegisterController:71 - Received valid username & password
+2020-03-03 02:22:30 [JavaFX Application Thread] ERROR RegisterController:71 - Received valid username & password
+2020-03-03 02:22:48 [JavaFX Application Thread] ERROR RegisterController:67 - Invalid username or password
+2020-03-03 02:22:57 [JavaFX Application Thread] ERROR RegisterController:71 - Received valid username & password
+2020-03-03 02:24:26 [JavaFX Application Thread] ERROR RegisterController:70 - Received valid username & password
+2020-03-03 02:49:28 [JavaFX Application Thread] ERROR RegisterController:69 - Invalid username or password
+2020-03-03 02:50:34 [JavaFX Application Thread] ERROR RegisterController:69 - Invalid username or password
+2020-03-03 10:43:47 [JavaFX Application Thread] ERROR RegisterController:73 - Received valid username & password
+2020-03-03 10:43:47 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 10:43:47 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 10:43:47 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 10:43:48 [cluster-ClusterId{value='5e5de78b2485aa59a036c7fd', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2020-03-03 10:43:48 [cluster-ClusterId{value='5e5de78b2485aa59a036c7fd', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=721808}
+2020-03-03 10:43:48 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 10:52:19 [JavaFX Application Thread] ERROR RegisterController:73 - Received valid username & password
+2020-03-03 10:52:20 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 10:52:20 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 10:52:20 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 10:52:20 [cluster-ClusterId{value='5e5de98c2485aa54b8aaf21f', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+2020-03-03 10:52:20 [cluster-ClusterId{value='5e5de98c2485aa54b8aaf21f', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=643175}
+2020-03-03 10:52:20 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 10:53:08 [JavaFX Application Thread] ERROR RegisterController:73 - Received valid username & password
+2020-03-03 10:53:08 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 10:53:08 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 10:53:08 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 10:53:08 [cluster-ClusterId{value='5e5de9bc2485aa315c23dca1', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017
+2020-03-03 10:53:08 [cluster-ClusterId{value='5e5de9bc2485aa315c23dca1', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=647053}
+2020-03-03 10:53:08 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 10:55:23 [JavaFX Application Thread] ERROR RegisterController:73 - Received valid username & password
+2020-03-03 10:55:23 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 10:55:23 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 10:55:23 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 10:55:24 [cluster-ClusterId{value='5e5dea432485aa36086515a0', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:4}] to localhost:27017
+2020-03-03 10:55:24 [cluster-ClusterId{value='5e5dea432485aa36086515a0', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=682316}
+2020-03-03 10:55:24 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 11:28:13 [JavaFX Application Thread] ERROR RegisterController:73 - Received valid username & password
+2020-03-03 11:28:14 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 11:28:14 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 11:28:14 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 11:28:14 [cluster-ClusterId{value='5e5df1f62485aa3e58d23157', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+2020-03-03 11:28:14 [cluster-ClusterId{value='5e5df1f62485aa3e58d23157', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=576882}
+2020-03-03 11:28:14 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 11:28:14 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:8}] to localhost:27017
+2020-03-03 11:30:41 [JavaFX Application Thread] ERROR RegisterController:74 - Received valid username & password
+2020-03-03 11:30:42 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 11:30:42 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 11:30:42 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 11:30:42 [cluster-ClusterId{value='5e5df28a2485aa2048ec54f3', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:9}] to localhost:27017
+2020-03-03 11:30:42 [cluster-ClusterId{value='5e5df28a2485aa2048ec54f3', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=637180}
+2020-03-03 11:30:42 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 11:30:42 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:10}] to localhost:27017
+2020-03-03 11:40:53 [JavaFX Application Thread] ERROR RegisterController:63 - Received valid username & password
+2020-03-03 11:40:54 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 11:40:54 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 11:40:54 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 11:40:54 [cluster-ClusterId{value='5e5df4ee2485aa53bc7e4a82', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:11}] to localhost:27017
+2020-03-03 11:40:54 [cluster-ClusterId{value='5e5df4ee2485aa53bc7e4a82', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=814547}
+2020-03-03 11:40:54 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 11:40:54 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:12}] to localhost:27017
+2020-03-03 11:41:31 [JavaFX Application Thread] ERROR RegisterController:63 - Received valid username & password
+2020-03-03 11:41:32 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 11:41:32 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 11:41:32 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 11:41:32 [cluster-ClusterId{value='5e5df5142485aa43bc891f52', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+2020-03-03 11:41:32 [cluster-ClusterId{value='5e5df5142485aa43bc891f52', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=619549}
+2020-03-03 11:41:32 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 11:41:32 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:14}] to localhost:27017
+2020-03-03 11:54:39 [JavaFX Application Thread] ERROR RegisterController:63 - Received valid username & password
+2020-03-03 11:54:40 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 11:54:40 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 11:54:40 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 11:54:41 [cluster-ClusterId{value='5e5df8282485aa0de0941c2c', description='null'}-localhost:27017] INFO  cluster:76 - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127) [mongo-java-driver-3.0.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_181]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_181]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_181]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_181]
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50) ~[mongo-java-driver-3.0.4.jar:?]
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58) ~[mongo-java-driver-3.0.4.jar:?]
+	... 3 more
+2020-03-03 11:58:24 [JavaFX Application Thread] ERROR RegisterController:63 - Received valid username & password
+2020-03-03 11:58:25 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 11:58:25 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 11:58:25 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 11:58:25 [cluster-ClusterId{value='5e5df9092485aa54e48ef385', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+2020-03-03 11:58:25 [cluster-ClusterId{value='5e5df9092485aa54e48ef385', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=660806}
+2020-03-03 11:58:25 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 11:58:25 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:8}] to localhost:27017
+2020-03-03 11:58:25 [JavaFX Application Thread] INFO  User:49 - Record added successfully to the database
+2020-03-03 12:06:19 [JavaFX Application Thread] INFO  Main:28 - Application started
+2020-03-03 12:06:31 [JavaFX Application Thread] ERROR RegisterController:63 - Received valid username & password
+2020-03-03 12:06:32 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 12:06:32 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 12:06:32 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 12:06:32 [cluster-ClusterId{value='5e5dfaf02485aa3e34196aeb', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:11}] to localhost:27017
+2020-03-03 12:06:32 [cluster-ClusterId{value='5e5dfaf02485aa3e34196aeb', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=635417}
+2020-03-03 12:06:32 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 12:06:32 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:12}] to localhost:27017
+2020-03-03 12:06:32 [JavaFX Application Thread] INFO  User:49 - Record added successfully to the database
+2020-03-03 12:17:24 [JavaFX Application Thread] INFO  Main:28 - Application started
+2020-03-03 12:17:42 [JavaFX Application Thread] ERROR RegisterController:63 - Received valid username & password
+2020-03-03 12:17:43 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 12:17:43 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 12:17:43 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 12:17:43 [cluster-ClusterId{value='5e5dfd8f2485aa3b0469f981', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:15}] to localhost:27017
+2020-03-03 12:17:43 [cluster-ClusterId{value='5e5dfd8f2485aa3b0469f981', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=598745}
+2020-03-03 12:17:43 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 12:17:43 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+2020-03-03 12:17:43 [JavaFX Application Thread] INFO  User:53 - Record added successfully to the database
+2020-03-03 12:25:16 [JavaFX Application Thread] INFO  Main:28 - Application started
+2020-03-03 13:52:01 [JavaFX Application Thread] INFO  Main:29 - Application started
+2020-03-03 13:52:07 [JavaFX Application Thread] ERROR LoginView:32 - Failed to load login window
+2020-03-03 13:54:24 [JavaFX Application Thread] INFO  Main:29 - Application started
+2020-03-03 13:57:49 [JavaFX Application Thread] INFO  Main:29 - Application started
+2020-03-03 14:03:02 [JavaFX Application Thread] INFO  Main:29 - Application started
+2020-03-03 14:03:07 [JavaFX Application Thread] INFO  LoginView:28 - Loading login window
+2020-03-03 14:03:14 [JavaFX Application Thread] INFO  RegisterView:28 - Loading register window
+2020-03-03 14:03:25 [JavaFX Application Thread] ERROR RegisterController:64 - Received valid username & password
+2020-03-03 14:03:26 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 14:03:26 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 14:03:26 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 14:03:26 [cluster-ClusterId{value='5e5e1656a940a831009311fb', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:19}] to localhost:27017
+2020-03-03 14:03:26 [cluster-ClusterId{value='5e5e1656a940a831009311fb', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=680906}
+2020-03-03 14:03:26 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 14:03:26 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:20}] to localhost:27017
+2020-03-03 14:03:26 [JavaFX Application Thread] INFO  User:47 - Record added successfully to the database
+2020-03-03 14:10:05 [JavaFX Application Thread] INFO  Main:29 - Application started
+2020-03-03 14:10:10 [JavaFX Application Thread] INFO  LoginView:28 - Loading login window
+2020-03-03 14:10:14 [JavaFX Application Thread] INFO  RegisterView:28 - Loading register window
+2020-03-03 14:10:22 [JavaFX Application Thread] ERROR RegisterController:64 - Received valid username & password
+2020-03-03 14:10:22 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 14:10:22 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 14:10:22 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 14:10:22 [cluster-ClusterId{value='5e5e17f6a940a81874df63fd', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:23}] to localhost:27017
+2020-03-03 14:10:22 [cluster-ClusterId{value='5e5e17f6a940a81874df63fd', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=590635}
+2020-03-03 14:10:22 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 14:10:23 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017
+2020-03-03 14:10:23 [JavaFX Application Thread] INFO  User:47 - Record added successfully to the database
+2020-03-03 14:12:08 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 14:12:08 [JavaFX Application Thread] INFO  WelcomeView:29 - Loading welcome window
+2020-03-03 14:12:14 [JavaFX Application Thread] INFO  LoginView:28 - Loading login window
+2020-03-03 14:12:16 [JavaFX Application Thread] INFO  RegisterView:28 - Loading register window
+2020-03-03 14:13:04 [JavaFX Application Thread] ERROR RegisterController:64 - Received valid username & password
+2020-03-03 14:13:05 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 14:13:05 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 14:13:05 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 14:13:05 [cluster-ClusterId{value='5e5e1899a940a81e38239149', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:27}] to localhost:27017
+2020-03-03 14:13:05 [cluster-ClusterId{value='5e5e1899a940a81e38239149', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=786690}
+2020-03-03 14:13:05 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 14:13:05 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:28}] to localhost:27017
+2020-03-03 14:13:05 [JavaFX Application Thread] INFO  User:47 - Record added successfully to the database
+2020-03-03 14:18:54 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 14:18:54 [JavaFX Application Thread] INFO  WelcomeView:29 - Loading welcome window
+2020-03-03 14:18:59 [JavaFX Application Thread] INFO  LoginView:28 - Loading login window
+2020-03-03 14:19:03 [JavaFX Application Thread] INFO  RegisterView:28 - Loading register window
+2020-03-03 14:19:13 [JavaFX Application Thread] ERROR RegisterController:64 - Received valid username & password
+2020-03-03 14:19:14 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 14:19:14 [JavaFX Application Thread] INFO  Database:80 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 14:19:14 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 14:19:14 [cluster-ClusterId{value='5e5e1a0aa940a849880141d3', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:29}] to localhost:27017
+2020-03-03 14:19:14 [cluster-ClusterId{value='5e5e1a0aa940a849880141d3', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=736618}
+2020-03-03 14:19:14 [JavaFX Application Thread] INFO  Database:84 - Connected to the database successfully
+2020-03-03 14:19:14 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:30}] to localhost:27017
+2020-03-03 14:19:14 [JavaFX Application Thread] INFO  User:47 - Record added successfully to the database
+2020-03-03 14:31:20 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 14:31:20 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 14:31:25 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 14:31:28 [JavaFX Application Thread] INFO  RegisterView:27 - Loading register window
+2020-03-03 14:31:32 [JavaFX Application Thread] ERROR RegisterController:64 - Received valid username & password
+2020-03-03 14:31:33 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 14:31:33 [JavaFX Application Thread] INFO  Database:74 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 14:31:33 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 14:31:33 [cluster-ClusterId{value='5e5e1ceda940a859883522f8', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+2020-03-03 14:31:33 [cluster-ClusterId{value='5e5e1ceda940a859883522f8', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=625192}
+2020-03-03 14:31:33 [JavaFX Application Thread] INFO  Database:78 - Connected to the database successfully
+2020-03-03 14:31:33 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:32}] to localhost:27017
+2020-03-03 14:31:33 [JavaFX Application Thread] INFO  User:47 - Record added successfully to the database
+2020-03-03 14:31:33 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:15:40 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:15:40 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:19:18 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:19:18 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:19:24 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:20:44 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:20:44 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:20:49 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:20:52 [JavaFX Application Thread] ERROR LoginController:52 - Invalid username or password
+2020-03-03 15:21:01 [JavaFX Application Thread] ERROR LoginController:52 - Invalid username or password
+2020-03-03 15:21:07 [JavaFX Application Thread] ERROR LoginController:52 - Invalid username or password
+2020-03-03 15:21:19 [JavaFX Application Thread] INFO  RegisterView:27 - Loading register window
+2020-03-03 15:22:06 [JavaFX Application Thread] ERROR RegisterController:64 - Received valid username & password
+2020-03-03 15:22:06 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-03 15:22:06 [JavaFX Application Thread] INFO  Database:74 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-03 15:22:06 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-03 15:22:06 [cluster-ClusterId{value='5e5e28c62e6f440cdc8ec0ef', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:33}] to localhost:27017
+2020-03-03 15:22:06 [cluster-ClusterId{value='5e5e28c62e6f440cdc8ec0ef', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=680905}
+2020-03-03 15:22:06 [JavaFX Application Thread] INFO  Database:78 - Connected to the database successfully
+2020-03-03 15:22:06 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2020-03-03 15:22:06 [JavaFX Application Thread] INFO  User:49 - Record added successfully to the database
+2020-03-03 15:22:06 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:22:13 [JavaFX Application Thread] ERROR LoginController:52 - Invalid username or password
+2020-03-03 15:23:13 [JavaFX Application Thread] ERROR LoginController:52 - Invalid username or password
+2020-03-03 15:24:24 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:24:24 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:24:31 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:24:31 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:24:47 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:25:56 [JavaFX Application Thread] ERROR LoginController:52 - Invalid username or password
+2020-03-03 15:27:17 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:27:17 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:27:31 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:29:15 [JavaFX Application Thread] ERROR LoginController:52 - Invalid username or password
+2020-03-03 15:30:57 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:30:57 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:31:05 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:32:47 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:32:47 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:32:56 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:35:42 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:35:42 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:35:59 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:35:59 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:36:05 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:36:17 [JavaFX Application Thread] ERROR LoginController:53 - Invalid username or password
+2020-03-03 15:38:20 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:38:20 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:38:28 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:47:02 [JavaFX Application Thread] INFO  WelcomeView:26 - Application started
+2020-03-03 15:47:02 [JavaFX Application Thread] INFO  WelcomeView:28 - Loading welcome window
+2020-03-03 15:47:07 [JavaFX Application Thread] INFO  LoginView:27 - Loading login window
+2020-03-03 15:47:09 [JavaFX Application Thread] INFO  RegisterView:27 - Loading register window
+2020-03-03 15:47:15 [JavaFX Application Thread] ERROR RegisterController:56 - Invalid username or password
+2020-03-03 19:19:50 [JavaFX Application Thread] INFO  WelcomeController:40 - Application started
+2020-03-03 19:19:50 [JavaFX Application Thread] INFO  WelcomeController:42 - Loading welcome window
+2020-03-03 19:19:56 [JavaFX Application Thread] INFO  LoginController:101 - Loading login window
+2020-03-03 19:19:59 [JavaFX Application Thread] INFO  RegisterView:27 - Loading register window
+2020-03-03 19:20:10 [JavaFX Application Thread] ERROR RegisterController:56 - Invalid username or password
+2020-03-03 19:24:54 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 19:24:54 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 19:24:59 [JavaFX Application Thread] INFO  LoginController:99 - Loading login window
+2020-03-03 19:25:11 [JavaFX Application Thread] INFO  RegisterController:92 - Loading login window
+2020-03-03 19:26:43 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 19:26:43 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 19:26:48 [JavaFX Application Thread] INFO  LoginController:99 - Loading login window
+2020-03-03 19:26:51 [JavaFX Application Thread] INFO  RegisterController:93 - Loading login window
+2020-03-03 19:27:00 [JavaFX Application Thread] ERROR RegisterController:62 - Invalid username or password
+2020-03-03 19:28:31 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 19:28:31 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 19:28:37 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 19:28:39 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 19:28:44 [JavaFX Application Thread] ERROR RegisterController:62 - Invalid username or password
+2020-03-03 19:30:49 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 19:30:49 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 19:30:55 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 19:31:09 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 19:31:52 [JavaFX Application Thread] ERROR RegisterController:62 - Invalid username or password
+2020-03-03 19:46:32 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 19:46:32 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 19:46:37 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 19:46:40 [JavaFX Application Thread] INFO  RegisterController:92 - Loading sign up window
+2020-03-03 19:46:47 [JavaFX Application Thread] ERROR RegisterController:62 - Invalid username or password
+2020-03-03 19:59:26 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 19:59:26 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 19:59:32 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 19:59:33 [JavaFX Application Thread] INFO  RegisterController:91 - Loading sign up window
+2020-03-03 19:59:39 [JavaFX Application Thread] ERROR RegisterController:61 - Invalid username or password
+2020-03-03 20:01:40 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 20:01:40 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 20:01:45 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 20:01:49 [JavaFX Application Thread] INFO  RegisterController:94 - Loading sign up window
+2020-03-03 20:01:57 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 20:01:57 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 20:01:57 [JavaFX Application Thread] ERROR RegisterController:64 - Invalid username or password
+2020-03-03 20:06:09 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 20:06:09 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 20:06:14 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 20:06:27 [JavaFX Application Thread] INFO  RegisterController:95 - Loading sign up window
+2020-03-03 20:06:32 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-03 20:06:32 [JavaFX Application Thread] INFO  RegisterController:60 - password:
+2020-03-03 20:06:32 [JavaFX Application Thread] ERROR RegisterController:65 - Invalid username or password
+2020-03-03 20:09:02 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 20:09:02 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 20:09:12 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 20:09:37 [JavaFX Application Thread] INFO  RegisterController:95 - Loading sign up window
+2020-03-03 20:11:22 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-03 20:11:22 [JavaFX Application Thread] INFO  RegisterController:60 - password:
+2020-03-03 20:11:40 [JavaFX Application Thread] ERROR RegisterController:65 - Invalid username or password
+2020-03-03 20:14:03 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 20:14:03 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 20:14:08 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 20:14:11 [JavaFX Application Thread] INFO  RegisterController:95 - Loading sign up window
+2020-03-03 20:14:17 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-03 20:14:17 [JavaFX Application Thread] INFO  RegisterController:60 - password:
+2020-03-03 20:14:17 [JavaFX Application Thread] ERROR RegisterController:65 - Invalid username or password
+2020-03-03 20:15:38 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 20:15:38 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 20:15:44 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 20:15:46 [JavaFX Application Thread] INFO  RegisterController:99 - Loading sign up window
+2020-03-03 20:15:51 [JavaFX Application Thread] INFO  RegisterController:63 - Username:
+2020-03-03 20:15:51 [JavaFX Application Thread] INFO  RegisterController:64 - password:
+2020-03-03 20:15:51 [JavaFX Application Thread] ERROR RegisterController:69 - Invalid username or password
+2020-03-03 20:33:16 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 20:33:16 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 20:33:22 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 20:33:24 [JavaFX Application Thread] INFO  RegisterController:94 - Loading sign up window
+2020-03-03 20:33:29 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 20:33:29 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 20:33:29 [JavaFX Application Thread] ERROR RegisterController:64 - Invalid username or password
+2020-03-03 20:37:55 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 20:37:55 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 20:38:00 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 20:38:02 [JavaFX Application Thread] INFO  RegisterController:96 - Loading sign up window
+2020-03-03 20:38:12 [JavaFX Application Thread] INFO  RegisterController:114 - Username:
+2020-03-03 20:38:12 [JavaFX Application Thread] INFO  RegisterController:115 - password:
+2020-03-03 20:38:12 [JavaFX Application Thread] ERROR RegisterController:120 - Invalid username or password
+2020-03-03 21:15:03 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:15:03 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:15:10 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:15:20 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:15:20 [JavaFX Application Thread] ERROR RegisterController:101 - Failed to load login window
+2020-03-03 21:17:38 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:17:38 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:17:48 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:17:57 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:17:57 [JavaFX Application Thread] ERROR RegisterController:101 - Failed to load sign up window
+2020-03-03 21:21:08 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:21:08 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:21:13 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:21:16 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:21:16 [JavaFX Application Thread] ERROR RegisterController:101 - Failed to load sign up window
+2020-03-03 21:23:33 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:23:33 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:23:39 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:23:42 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:23:50 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 21:23:50 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 21:23:50 [JavaFX Application Thread] ERROR RegisterController:64 - Invalid username or password
+2020-03-03 21:28:06 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:28:06 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:28:11 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:28:14 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:28:22 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 21:28:22 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 21:28:22 [JavaFX Application Thread] ERROR RegisterController:64 - Invalid username or password
+2020-03-03 21:31:52 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:31:52 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:31:57 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:32:01 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:37:40 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:37:40 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:37:45 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:37:55 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:37:59 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 21:37:59 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 21:37:59 [JavaFX Application Thread] ERROR RegisterController:64 - Invalid username or password
+2020-03-03 21:40:05 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:40:05 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:40:10 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:40:13 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:40:19 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 21:40:19 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 21:40:19 [JavaFX Application Thread] ERROR RegisterController:64 - Invalid username or password
+2020-03-03 21:43:07 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:43:07 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:43:12 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:43:14 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:43:14 [JavaFX Application Thread] ERROR RegisterController:101 - Failed to load sign up window
+2020-03-03 21:45:50 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:45:50 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:45:55 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:45:57 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:46:01 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 21:46:01 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 21:46:01 [JavaFX Application Thread] ERROR RegisterController:64 - Invalid username or password
+2020-03-03 21:46:26 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 21:46:26 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 21:46:26 [JavaFX Application Thread] ERROR RegisterController:64 - Invalid username or password
+2020-03-03 21:46:40 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 21:46:40 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 21:46:40 [JavaFX Application Thread] ERROR RegisterController:64 - Invalid username or password
+2020-03-03 21:47:38 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:47:38 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:47:43 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:47:54 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-03 21:47:59 [JavaFX Application Thread] INFO  RegisterController:58 - Username:
+2020-03-03 21:47:59 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-03 21:48:26 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:48:26 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:48:34 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 21:48:34 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 21:48:40 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 21:48:42 [JavaFX Application Thread] INFO  RegisterController:94 - Loading sign up window
+2020-03-03 21:48:49 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-03 21:48:49 [JavaFX Application Thread] INFO  RegisterController:60 - password:
+2020-03-03 21:48:49 [JavaFX Application Thread] ERROR RegisterController:65 - Invalid username or password
+2020-03-03 22:15:46 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 22:15:46 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 22:15:51 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 22:15:53 [JavaFX Application Thread] INFO  RegisterController:94 - Loading sign up window
+2020-03-03 22:15:58 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-03 22:15:58 [JavaFX Application Thread] INFO  RegisterController:60 - password:
+2020-03-03 22:15:58 [JavaFX Application Thread] ERROR RegisterController:65 - Invalid username or password
+2020-03-03 22:16:13 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-03 22:16:13 [JavaFX Application Thread] INFO  RegisterController:60 - password:
+2020-03-03 22:16:13 [JavaFX Application Thread] ERROR RegisterController:65 - Invalid username or password
+2020-03-03 22:16:20 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-03 22:16:20 [JavaFX Application Thread] INFO  RegisterController:60 - password:
+2020-03-03 22:16:20 [JavaFX Application Thread] ERROR RegisterController:65 - Invalid username or password
+2020-03-03 23:58:45 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-03 23:58:45 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-03 23:58:51 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-03 23:58:52 [JavaFX Application Thread] INFO  RegisterController:95 - Loading sign up window
+2020-03-03 23:59:03 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-03 23:59:03 [JavaFX Application Thread] INFO  RegisterController:60 - Username:0
+2020-03-03 23:59:03 [JavaFX Application Thread] INFO  RegisterController:61 - password:
+2020-03-04 00:01:09 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:01:09 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:01:15 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-04 00:01:16 [JavaFX Application Thread] INFO  RegisterController:95 - Loading sign up window
+2020-03-04 00:01:25 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-04 00:01:25 [JavaFX Application Thread] INFO  RegisterController:60 - Username:0
+2020-03-04 00:01:25 [JavaFX Application Thread] INFO  RegisterController:61 - password:
+2020-03-04 00:03:49 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:03:49 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:03:56 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-04 00:04:13 [JavaFX Application Thread] INFO  RegisterController:101 - Loading sign up window
+2020-03-04 00:04:40 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-04 00:04:40 [JavaFX Application Thread] INFO  RegisterController:60 - Username:0
+2020-03-04 00:04:40 [JavaFX Application Thread] INFO  RegisterController:61 - password:
+2020-03-04 00:05:17 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:05:17 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:05:23 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-04 00:05:25 [JavaFX Application Thread] INFO  RegisterController:101 - Loading sign up window
+2020-03-04 00:05:30 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-04 00:05:30 [JavaFX Application Thread] INFO  RegisterController:60 - Username:0
+2020-03-04 00:05:30 [JavaFX Application Thread] INFO  RegisterController:61 - password:
+2020-03-04 00:05:32 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-04 00:05:32 [JavaFX Application Thread] INFO  RegisterController:60 - Username:0
+2020-03-04 00:05:32 [JavaFX Application Thread] INFO  RegisterController:61 - password:
+2020-03-04 00:05:33 [JavaFX Application Thread] INFO  RegisterController:59 - Username:
+2020-03-04 00:05:33 [JavaFX Application Thread] INFO  RegisterController:60 - Username:0
+2020-03-04 00:05:33 [JavaFX Application Thread] INFO  RegisterController:61 - password:
+2020-03-04 00:06:54 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:06:54 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:07:00 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-04 00:07:02 [JavaFX Application Thread] INFO  RegisterController:99 - Loading sign up window
+2020-03-04 00:07:06 [JavaFX Application Thread] INFO  RegisterController:57 - Username:
+2020-03-04 00:07:06 [JavaFX Application Thread] INFO  RegisterController:58 - Username:0
+2020-03-04 00:07:06 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-04 00:07:07 [JavaFX Application Thread] INFO  RegisterController:57 - Username:
+2020-03-04 00:07:07 [JavaFX Application Thread] INFO  RegisterController:58 - Username:0
+2020-03-04 00:07:07 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-04 00:10:12 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:10:12 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:10:18 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:10:31 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:10:31 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:10:37 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:16:32 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:16:32 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:16:45 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:18:24 [JavaFX Application Thread] INFO  RegisterController:93 - Loading sign up window
+2020-03-04 00:18:50 [JavaFX Application Thread] INFO  RegisterController:57 - Username:
+2020-03-04 00:18:50 [JavaFX Application Thread] INFO  RegisterController:58 - Username:0
+2020-03-04 00:18:50 [JavaFX Application Thread] INFO  RegisterController:59 - password:
+2020-03-04 00:24:00 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:24:00 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:24:05 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:24:08 [JavaFX Application Thread] INFO  RegisterController:108 - Loading sign up window
+2020-03-04 00:26:34 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:26:34 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:26:40 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:26:45 [JavaFX Application Thread] INFO  RegisterController:91 - Loading sign up window
+2020-03-04 00:26:53 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:26:53 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:26:53 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:19 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:28:19 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:28:24 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:28:26 [JavaFX Application Thread] INFO  RegisterController:92 - Loading sign up window
+2020-03-04 00:28:30 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:30 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:30 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:32 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:32 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:32 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:33 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:33 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:33 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:34 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:51 - Username:
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:52 - Username:0
+2020-03-04 00:28:35 [JavaFX Application Thread] INFO  RegisterController:53 - password:
+2020-03-04 00:43:38 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:43:38 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:43:44 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:44:04 [JavaFX Application Thread] INFO  RegisterController:106 - Loading sign up window
+2020-03-04 00:45:02 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:45:02 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:45:07 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:45:09 [JavaFX Application Thread] INFO  RegisterController:106 - Loading sign up window
+2020-03-04 00:47:03 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:47:03 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:47:08 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:47:11 [JavaFX Application Thread] INFO  RegisterController:113 - Loading sign up window
+2020-03-04 00:47:32 [JavaFX Application Thread] INFO  RegisterController:66 - Username:
+2020-03-04 00:47:32 [JavaFX Application Thread] INFO  RegisterController:67 - Username:0
+2020-03-04 00:47:32 [JavaFX Application Thread] INFO  RegisterController:68 - password:
+2020-03-04 00:49:07 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:49:07 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:49:27 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:49:37 [JavaFX Application Thread] INFO  RegisterController:111 - Loading sign up window
+2020-03-04 00:50:39 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:50:39 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:50:51 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:51:08 [JavaFX Application Thread] INFO  RegisterController:111 - Loading sign up window
+2020-03-04 00:52:02 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:52:02 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:52:15 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:52:21 [JavaFX Application Thread] INFO  RegisterController:111 - Loading sign up window
+2020-03-04 00:53:42 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-04 00:53:42 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-04 00:53:52 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign in window
+2020-03-04 00:54:00 [JavaFX Application Thread] INFO  RegisterController:111 - Loading sign up window
+2020-03-09 17:51:20 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 17:51:20 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 17:51:26 [JavaFX Application Thread] INFO  LoginController:99 - Loading sign in window
+2020-03-09 17:51:26 [JavaFX Application Thread] ERROR LoginController:107 - Failed to load sign in window
+2020-03-09 17:53:08 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 17:53:08 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 17:53:14 [JavaFX Application Thread] INFO  LoginController:100 - Loading sign in window
+2020-03-09 17:53:14 [JavaFX Application Thread] ERROR LoginController:108 - Failed to load sign in window
+2020-03-09 17:53:52 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 17:53:52 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 17:53:58 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 17:53:58 [JavaFX Application Thread] ERROR LoginController:105 - Failed to load sign in window
+2020-03-09 17:56:47 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 17:56:47 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 17:56:52 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 17:56:56 [JavaFX Application Thread] INFO  RegisterController:111 - Loading sign up window
+2020-03-09 17:57:11 [JavaFX Application Thread] INFO  RegisterController:66 - Username:
+2020-03-09 17:57:11 [JavaFX Application Thread] INFO  RegisterController:67 - Username:0
+2020-03-09 17:57:11 [JavaFX Application Thread] INFO  RegisterController:68 - password:
+2020-03-09 18:03:15 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:03:15 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:03:21 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 18:03:23 [JavaFX Application Thread] INFO  RegisterController:111 - Loading sign up window
+2020-03-09 18:03:29 [JavaFX Application Thread] INFO  RegisterController:65 - Username:
+2020-03-09 18:03:29 [JavaFX Application Thread] INFO  RegisterController:66 - Username:0
+2020-03-09 18:03:29 [JavaFX Application Thread] INFO  RegisterController:67 - password:
+2020-03-09 18:05:42 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:05:42 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:05:47 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 18:05:49 [JavaFX Application Thread] INFO  RegisterController:111 - Loading sign up window
+2020-03-09 18:05:54 [JavaFX Application Thread] INFO  RegisterController:65 - Username:
+2020-03-09 18:05:54 [JavaFX Application Thread] INFO  RegisterController:66 - Username:0
+2020-03-09 18:05:54 [JavaFX Application Thread] INFO  RegisterController:67 - password:
+2020-03-09 18:15:30 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:15:30 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:15:35 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 18:15:37 [JavaFX Application Thread] INFO  RegisterController:111 - Loading sign up window
+2020-03-09 18:15:49 [JavaFX Application Thread] INFO  RegisterController:65 - Username:
+2020-03-09 18:15:49 [JavaFX Application Thread] INFO  RegisterController:66 - Username:0
+2020-03-09 18:15:49 [JavaFX Application Thread] INFO  RegisterController:67 - password:
+2020-03-09 18:15:56 [JavaFX Application Thread] INFO  RegisterController:65 - Username:
+2020-03-09 18:15:56 [JavaFX Application Thread] INFO  RegisterController:66 - Username:0
+2020-03-09 18:15:56 [JavaFX Application Thread] INFO  RegisterController:67 - password:
+2020-03-09 18:18:40 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:18:40 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:18:49 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:18:49 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:18:55 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 18:18:57 [JavaFX Application Thread] INFO  RegisterController:113 - Loading sign up window
+2020-03-09 18:19:03 [JavaFX Application Thread] INFO  RegisterController:67 - Username:
+2020-03-09 18:19:03 [JavaFX Application Thread] INFO  RegisterController:68 - Username:0
+2020-03-09 18:19:03 [JavaFX Application Thread] INFO  RegisterController:69 - password:
+2020-03-09 18:30:36 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:30:36 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:30:42 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 18:30:44 [JavaFX Application Thread] INFO  RegisterController:112 - Loading sign up window
+2020-03-09 18:30:44 [JavaFX Application Thread] ERROR RegisterController:125 - Failed to load sign up window
+2020-03-09 18:32:11 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:32:11 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:32:16 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 18:32:18 [JavaFX Application Thread] INFO  RegisterController:115 - Loading sign up window
+2020-03-09 18:32:26 [JavaFX Application Thread] INFO  RegisterController:67 - Username:
+2020-03-09 18:32:26 [JavaFX Application Thread] INFO  RegisterController:68 - Username:0
+2020-03-09 18:32:26 [JavaFX Application Thread] INFO  RegisterController:69 - password:
+2020-03-09 18:33:17 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:33:17 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:33:22 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 18:33:24 [JavaFX Application Thread] INFO  RegisterController:116 - Loading sign up window
+2020-03-09 18:33:29 [JavaFX Application Thread] INFO  RegisterController:67 - Username:
+2020-03-09 18:33:29 [JavaFX Application Thread] INFO  RegisterController:68 - Username:0
+2020-03-09 18:33:29 [JavaFX Application Thread] INFO  RegisterController:69 - password:
+2020-03-09 18:34:21 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:34:21 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:34:26 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 18:34:29 [JavaFX Application Thread] INFO  RegisterController:118 - Loading sign up window
+2020-03-09 18:34:44 [JavaFX Application Thread] INFO  RegisterController:69 - Username:
+2020-03-09 18:34:44 [JavaFX Application Thread] INFO  RegisterController:70 - Username:0
+2020-03-09 18:34:44 [JavaFX Application Thread] INFO  RegisterController:71 - password:
+2020-03-09 18:59:11 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 18:59:11 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 18:59:17 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 18:59:19 [JavaFX Application Thread] INFO  RegisterController:115 - Loading sign up window
+2020-03-09 18:59:26 [JavaFX Application Thread] INFO  RegisterController:66 - Username:
+2020-03-09 18:59:26 [JavaFX Application Thread] INFO  RegisterController:67 - Username:0
+2020-03-09 18:59:26 [JavaFX Application Thread] INFO  RegisterController:68 - password:
+2020-03-09 19:01:05 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 19:01:05 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 19:01:11 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 19:01:12 [JavaFX Application Thread] INFO  RegisterController:117 - Loading sign up window
+2020-03-09 19:01:17 [JavaFX Application Thread] INFO  RegisterController:66 - Username:
+2020-03-09 19:01:17 [JavaFX Application Thread] INFO  RegisterController:67 - Username:0
+2020-03-09 19:01:17 [JavaFX Application Thread] INFO  RegisterController:68 - password:
+2020-03-09 19:01:17 [JavaFX Application Thread] INFO  MainController:28 - Loading sign in window
+2020-03-09 19:03:35 [JavaFX Application Thread] INFO  WelcomeController:38 - Application started
+2020-03-09 19:03:35 [JavaFX Application Thread] INFO  WelcomeController:40 - Loading welcome window
+2020-03-09 19:03:40 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign in window
+2020-03-09 19:03:42 [JavaFX Application Thread] INFO  RegisterController:118 - Loading sign up window
+2020-03-09 19:03:47 [JavaFX Application Thread] INFO  RegisterController:66 - Username:
+2020-03-09 19:03:47 [JavaFX Application Thread] INFO  RegisterController:67 - Username:0
+2020-03-09 19:03:47 [JavaFX Application Thread] INFO  RegisterController:68 - password:
+2020-03-09 19:03:47 [JavaFX Application Thread] INFO  MainController:28 - Loading sign in window
+2020-03-09 19:11:21 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 19:11:21 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 19:11:39 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 19:11:54 [JavaFX Application Thread] INFO  RegisterController:122 - Loading sign up window
+2020-03-09 19:14:45 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 19:14:45 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 19:14:59 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 19:15:06 [JavaFX Application Thread] INFO  RegisterController:128 - Loading sign up window
+2020-03-09 19:15:36 [JavaFX Application Thread] INFO  RegisterController:70 - Username:
+2020-03-09 19:15:36 [JavaFX Application Thread] INFO  RegisterController:71 - Username:0
+2020-03-09 19:15:36 [JavaFX Application Thread] INFO  RegisterController:72 - password:
+2020-03-09 19:15:48 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-09 19:16:05 [JavaFX Application Thread] INFO  RegisterController:78 -  empty String
+2020-03-09 19:17:47 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 19:17:47 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 19:17:56 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 19:18:02 [JavaFX Application Thread] INFO  RegisterController:131 - Loading sign up window
+2020-03-09 19:18:29 [JavaFX Application Thread] INFO  RegisterController:69 - Username:
+2020-03-09 19:18:29 [JavaFX Application Thread] INFO  RegisterController:70 - Username:0
+2020-03-09 19:18:29 [JavaFX Application Thread] INFO  RegisterController:71 - password:
+2020-03-09 19:18:31 [JavaFX Application Thread] INFO  RegisterController:76 -  empty String
+2020-03-09 19:18:32 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-09 19:21:26 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 19:21:26 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 19:21:35 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 19:21:41 [JavaFX Application Thread] INFO  RegisterController:131 - Loading sign up window
+2020-03-09 19:24:32 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 19:24:32 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 19:24:37 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 19:24:39 [JavaFX Application Thread] INFO  RegisterController:131 - Loading sign up window
+2020-03-09 20:00:31 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 20:00:31 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 20:00:42 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 20:00:59 [JavaFX Application Thread] INFO  RegisterController:134 - Loading sign up window
+2020-03-09 20:01:15 [JavaFX Application Thread] INFO  RegisterController:70 - Username:
+2020-03-09 20:01:15 [JavaFX Application Thread] INFO  RegisterController:71 - Username:0
+2020-03-09 20:01:15 [JavaFX Application Thread] INFO  RegisterController:72 - password:
+2020-03-09 20:01:52 [JavaFX Application Thread] INFO  RegisterController:77 -  empty String
+2020-03-09 20:01:57 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-09 20:04:06 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 20:04:06 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 20:04:12 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 20:04:19 [JavaFX Application Thread] INFO  RegisterController:142 - Loading sign up window
+2020-03-09 21:52:38 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 21:52:38 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 21:52:43 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 21:52:45 [JavaFX Application Thread] INFO  RegisterController:136 - Loading sign up window
+2020-03-09 21:54:21 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 21:54:21 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 21:54:26 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 21:54:28 [JavaFX Application Thread] INFO  RegisterController:136 - Loading sign up window
+2020-03-09 21:55:41 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 21:55:41 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 21:55:47 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 21:55:53 [JavaFX Application Thread] ERROR LoginController:65 - Invalid username or password
+2020-03-09 21:58:25 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 21:58:25 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 21:58:30 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:01:28 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:01:28 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:01:34 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:02:26 [JavaFX Application Thread] INFO  RegisterController:136 - Loading sign up window
+2020-03-09 22:02:37 [JavaFX Application Thread] INFO  RegisterController:72 - Username:
+2020-03-09 22:02:37 [JavaFX Application Thread] INFO  RegisterController:73 - Username:0
+2020-03-09 22:02:37 [JavaFX Application Thread] INFO  RegisterController:74 - password:
+2020-03-09 22:02:37 [JavaFX Application Thread] INFO  RegisterController:79 -  empty String
+2020-03-09 22:02:37 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-09 22:02:54 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:02:54 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:02:59 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:03:10 [JavaFX Application Thread] INFO  RegisterController:136 - Loading sign up window
+2020-03-09 22:05:16 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:05:16 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:05:21 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:05:30 [JavaFX Application Thread] INFO  RegisterController:136 - Loading sign up window
+2020-03-09 22:06:07 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:06:07 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:06:12 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:06:15 [JavaFX Application Thread] INFO  RegisterController:136 - Loading sign up window
+2020-03-09 22:07:48 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:07:48 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:07:53 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:25:13 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:25:13 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:25:18 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:28:49 [JavaFX Application Thread] INFO  RegisterController:136 - Loading sign up window
+2020-03-09 22:29:11 [JavaFX Application Thread] INFO  RegisterController:72 - Username:
+2020-03-09 22:29:11 [JavaFX Application Thread] INFO  RegisterController:73 - Username:0
+2020-03-09 22:29:11 [JavaFX Application Thread] INFO  RegisterController:74 - password:
+2020-03-09 22:29:11 [JavaFX Application Thread] INFO  RegisterController:79 -  empty String
+2020-03-09 22:29:11 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-09 22:41:23 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:41:23 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:41:30 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:41:38 [JavaFX Application Thread] INFO  RegisterController:136 - Loading sign up window
+2020-03-09 22:41:51 [JavaFX Application Thread] INFO  RegisterController:72 - Username:
+2020-03-09 22:41:51 [JavaFX Application Thread] INFO  RegisterController:73 - Username:0
+2020-03-09 22:41:51 [JavaFX Application Thread] INFO  RegisterController:74 - password:
+2020-03-09 22:42:15 [JavaFX Application Thread] INFO  RegisterController:79 -  empty String
+2020-03-09 22:47:36 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:47:36 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:47:41 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:48:10 [JavaFX Application Thread] INFO  RegisterController:136 - Loading sign up window
+2020-03-09 22:49:41 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:49:41 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:49:47 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:49:50 [JavaFX Application Thread] INFO  RegisterController:130 - Loading sign up window
+2020-03-09 22:49:56 [JavaFX Application Thread] INFO  RegisterController:66 - Username:
+2020-03-09 22:49:56 [JavaFX Application Thread] INFO  RegisterController:67 - Username:0
+2020-03-09 22:49:56 [JavaFX Application Thread] INFO  RegisterController:68 - password:
+2020-03-09 22:49:56 [JavaFX Application Thread] INFO  RegisterController:73 -  empty String
+2020-03-09 22:49:56 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-09 22:51:51 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:51:51 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:51:56 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:51:56 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:52:02 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:52:06 [JavaFX Application Thread] INFO  RegisterController:130 - Loading sign up window
+2020-03-09 22:52:26 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:52:26 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:52:31 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:52:33 [JavaFX Application Thread] INFO  RegisterController:130 - Loading sign up window
+2020-03-09 22:52:37 [JavaFX Application Thread] INFO  RegisterController:66 - Username:
+2020-03-09 22:52:37 [JavaFX Application Thread] INFO  RegisterController:67 - Username:0
+2020-03-09 22:52:37 [JavaFX Application Thread] INFO  RegisterController:68 - password:
+2020-03-09 22:52:37 [JavaFX Application Thread] INFO  RegisterController:73 -  empty String
+2020-03-09 22:52:37 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-09 22:54:02 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 22:54:02 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 22:54:07 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 22:54:09 [JavaFX Application Thread] INFO  RegisterController:130 - Loading sign up window
+2020-03-09 22:54:14 [JavaFX Application Thread] INFO  RegisterController:66 - Username:
+2020-03-09 22:54:14 [JavaFX Application Thread] INFO  RegisterController:67 - Username:0
+2020-03-09 22:54:14 [JavaFX Application Thread] INFO  RegisterController:68 - password:
+2020-03-09 22:54:14 [JavaFX Application Thread] INFO  RegisterController:73 -  empty String
+2020-03-09 22:54:14 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-09 23:04:20 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:04:20 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:04:25 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:04:27 [JavaFX Application Thread] INFO  RegController:58 - Loading sign up window
+2020-03-09 23:04:46 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:04:46 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:04:52 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:04:54 [JavaFX Application Thread] INFO  RegController:58 - Loading sign up window
+2020-03-09 23:05:00 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:05:00 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:05:00 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:05:11 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:05:11 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:05:11 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:05:12 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:05:12 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:05:12 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:05:19 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:05:19 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:05:19 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:08:12 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:08:12 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:08:18 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:08:19 [JavaFX Application Thread] INFO  RegController:58 - Loading sign up window
+2020-03-09 23:09:04 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:09:04 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:09:09 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:09:11 [JavaFX Application Thread] INFO  RegController:58 - Loading sign up window
+2020-03-09 23:09:11 [JavaFX Application Thread] ERROR RegController:67 - Failed to load sign up window
+2020-03-09 23:09:48 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:09:48 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:09:53 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:09:54 [JavaFX Application Thread] INFO  RegController:58 - Loading sign up window
+2020-03-09 23:09:54 [JavaFX Application Thread] ERROR RegController:67 - Failed to load sign up window
+2020-03-09 23:10:13 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:10:13 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:10:18 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:10:20 [JavaFX Application Thread] INFO  RegController:58 - Loading sign up window
+2020-03-09 23:10:20 [JavaFX Application Thread] ERROR RegController:67 - Failed to load sign up window
+2020-03-09 23:11:23 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:11:23 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:11:29 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:11:31 [JavaFX Application Thread] INFO  RegController:58 - Loading sign up window
+2020-03-09 23:11:31 [JavaFX Application Thread] ERROR RegController:67 - Failed to load sign up window
+2020-03-09 23:12:24 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:12:25 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:12:30 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:12:32 [JavaFX Application Thread] INFO  RegController:59 - Loading sign up window
+2020-03-09 23:12:32 [JavaFX Application Thread] ERROR RegController:68 - Failed to load sign up window
+2020-03-09 23:13:43 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:13:43 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:13:49 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:13:51 [JavaFX Application Thread] INFO  RegController:58 - Loading sign up window
+2020-03-09 23:13:51 [JavaFX Application Thread] ERROR RegController:67 - Failed to load sign up window
+2020-03-09 23:27:18 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:27:18 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:27:23 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:27:25 [JavaFX Application Thread] INFO  RegController:58 - Loading sign up window
+2020-03-09 23:27:29 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:27:29 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:27:29 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:27:31 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:27:31 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:27:31 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:27:32 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:27:32 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:27:32 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:30:23 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:30:23 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:30:23 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:30:24 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:30:24 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:30:24 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:30:25 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:30:25 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:30:25 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:30:26 [JavaFX Application Thread] INFO  RegController:48 - Username:
+2020-03-09 23:30:26 [JavaFX Application Thread] INFO  RegController:49 - Username:0
+2020-03-09 23:30:26 [JavaFX Application Thread] INFO  RegController:50 - password:
+2020-03-09 23:37:48 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:37:48 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:37:53 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:37:55 [JavaFX Application Thread] INFO  RegController:55 - Loading sign up window
+2020-03-09 23:38:50 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:38:50 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:38:55 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:38:58 [JavaFX Application Thread] INFO  RegController:56 - Loading sign up window
+2020-03-09 23:39:02 [JavaFX Application Thread] INFO  RegController:47 - Username:
+2020-03-09 23:39:02 [JavaFX Application Thread] INFO  RegController:48 - Username:0
+2020-03-09 23:39:02 [JavaFX Application Thread] INFO  RegController:49 - password:
+2020-03-09 23:39:03 [JavaFX Application Thread] INFO  RegController:47 - Username:
+2020-03-09 23:39:03 [JavaFX Application Thread] INFO  RegController:48 - Username:0
+2020-03-09 23:39:03 [JavaFX Application Thread] INFO  RegController:49 - password:
+2020-03-09 23:51:15 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:51:15 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:51:21 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:51:26 [JavaFX Application Thread] INFO  RegController:59 - Loading sign up window
+2020-03-09 23:52:05 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:52:05 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:52:11 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:52:12 [JavaFX Application Thread] INFO  RegController:59 - Loading sign up window
+2020-03-09 23:52:18 [JavaFX Application Thread] INFO  RegController:49 - Username:
+2020-03-09 23:52:18 [JavaFX Application Thread] INFO  RegController:50 - Username:0
+2020-03-09 23:52:18 [JavaFX Application Thread] INFO  RegController:51 - password:
+2020-03-09 23:52:19 [JavaFX Application Thread] INFO  RegController:49 - Username:
+2020-03-09 23:52:19 [JavaFX Application Thread] INFO  RegController:50 - Username:0
+2020-03-09 23:52:19 [JavaFX Application Thread] INFO  RegController:51 - password:
+2020-03-09 23:57:13 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:57:13 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:57:28 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:57:28 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:57:33 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:57:35 [JavaFX Application Thread] INFO  RegController:53 - Loading sign up window
+2020-03-09 23:57:55 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-09 23:57:55 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-09 23:58:00 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-09 23:58:02 [JavaFX Application Thread] INFO  RegController:53 - Loading sign up window
+2020-03-10 00:07:58 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:07:58 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:08:04 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:08:06 [JavaFX Application Thread] INFO  RegController:59 - Loading sign up window
+2020-03-10 00:08:46 [JavaFX Application Thread] INFO  RegisterController:66 - Username:
+2020-03-10 00:08:46 [JavaFX Application Thread] INFO  RegisterController:67 - Username:0
+2020-03-10 00:08:46 [JavaFX Application Thread] INFO  RegisterController:68 - password:
+2020-03-10 00:08:46 [JavaFX Application Thread] INFO  RegisterController:73 -  empty String
+2020-03-10 00:08:46 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-10 00:09:06 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:09:06 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:09:11 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:09:15 [JavaFX Application Thread] INFO  RegController:59 - Loading sign up window
+2020-03-10 00:15:22 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:15:22 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:15:28 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:15:29 [JavaFX Application Thread] INFO  RegisterController:60 - Loading sign up window
+2020-03-10 00:20:06 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:20:06 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:20:11 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:20:14 [JavaFX Application Thread] INFO  RegController:56 - Loading sign up window
+2020-03-10 00:21:06 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:21:06 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:21:11 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:21:17 [JavaFX Application Thread] INFO  RegController:56 - Loading sign up window
+2020-03-10 00:26:23 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:26:23 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:26:29 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:26:32 [JavaFX Application Thread] INFO  RegController:56 - Loading sign up window
+2020-03-10 00:36:37 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:36:37 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:36:42 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:36:45 [JavaFX Application Thread] INFO  RegController:56 - Loading sign up window
+2020-03-10 00:38:46 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:38:46 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:38:51 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:38:53 [JavaFX Application Thread] INFO  RegController:56 - Loading sign up window
+2020-03-10 00:42:47 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:42:47 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:42:52 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:43:00 [JavaFX Application Thread] INFO  RegisterController:55 - Loading sign up window
+2020-03-10 00:47:12 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:47:12 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:47:18 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:47:19 [JavaFX Application Thread] INFO  RegisterController:66 - Loading sign up window
+2020-03-10 00:48:11 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:48:11 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:48:17 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:48:18 [JavaFX Application Thread] INFO  RegisterController:66 - Loading sign up window
+2020-03-10 00:48:23 [JavaFX Application Thread] INFO  RegisterController:58 - Received valid username & password
+2020-03-10 00:54:34 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 00:54:34 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 00:54:39 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 00:54:45 [JavaFX Application Thread] INFO  RegisterController:70 - Loading sign up window
+2020-03-10 00:54:56 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 00:54:57 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 00:54:57 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 00:54:57 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 00:54:57 [cluster-ClusterId{value='5e6698098fbc9c26988535ed', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2020-03-10 00:54:57 [cluster-ClusterId{value='5e6698098fbc9c26988535ed', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=603329}
+2020-03-10 00:54:57 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 00:54:57 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2020-03-10 00:54:57 [JavaFX Application Thread] INFO  User:57 - Record added successfully to the database
+2020-03-10 01:01:14 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 01:01:14 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 01:01:20 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:01:21 [JavaFX Application Thread] INFO  RegisterController:81 - Loading sign up window
+2020-03-10 01:01:31 [JavaFX Application Thread] INFO  RegisterController:57 - Received invalid username or password
+2020-03-10 01:01:39 [JavaFX Application Thread] INFO  RegisterController:57 - Received invalid username or password
+2020-03-10 01:01:50 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:01:50 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:01:50 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:01:50 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:01:51 [cluster-ClusterId{value='5e6699a68fbc9c0cb0f037c1', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+2020-03-10 01:01:51 [cluster-ClusterId{value='5e6699a68fbc9c0cb0f037c1', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=673499}
+2020-03-10 01:01:51 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:01:51 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:8}] to localhost:27017
+2020-03-10 01:01:51 [JavaFX Application Thread] INFO  User:87 - User already exists
+2020-03-10 01:02:06 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:02:06 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:02:06 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:02:06 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:02:06 [cluster-ClusterId{value='5e6699b68fbc9c0cb0f037c2', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:3, serverValue:9}] to localhost:27017
+2020-03-10 01:02:06 [cluster-ClusterId{value='5e6699b68fbc9c0cb0f037c2', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=901290}
+2020-03-10 01:02:06 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:02:06 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:4, serverValue:10}] to localhost:27017
+2020-03-10 01:03:04 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 01:03:04 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 01:03:10 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:03:21 [JavaFX Application Thread] INFO  RegisterController:81 - Loading sign up window
+2020-03-10 01:03:30 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:03:31 [cluster-ClusterId{value='5e669a0b8fbc9c1364b918f5', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:11}] to localhost:27017
+2020-03-10 01:03:31 [cluster-ClusterId{value='5e669a0b8fbc9c1364b918f5', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=592750}
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:12}] to localhost:27017
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  User:91 - User does not exist
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:03:31 [cluster-ClusterId{value='5e669a0b8fbc9c1364b918f6', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:3, serverValue:13}] to localhost:27017
+2020-03-10 01:03:31 [cluster-ClusterId{value='5e669a0b8fbc9c1364b918f6', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=600154}
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:4, serverValue:14}] to localhost:27017
+2020-03-10 01:03:31 [JavaFX Application Thread] INFO  User:57 - Record added successfully to the database
+2020-03-10 01:07:39 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 01:07:39 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 01:07:47 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:08:35 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 01:08:35 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 01:08:40 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:14:02 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 01:14:02 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 01:14:07 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:17:52 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 01:17:52 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 01:17:57 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:18:04 [JavaFX Application Thread] INFO  RegisterController:81 - Loading sign up window
+2020-03-10 01:18:10 [JavaFX Application Thread] INFO  RegisterController:57 - Received invalid username or password
+2020-03-10 01:18:15 [JavaFX Application Thread] INFO  RegisterController:57 - Received invalid username or password
+2020-03-10 01:18:23 [JavaFX Application Thread] INFO  RegisterController:57 - Received invalid username or password
+2020-03-10 01:18:30 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:18:31 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:18:31 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:18:31 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:18:31 [cluster-ClusterId{value='5e669d8f8fbc9c1a605d61c2', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:15}] to localhost:27017
+2020-03-10 01:18:31 [cluster-ClusterId{value='5e669d8f8fbc9c1a605d61c2', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=533862}
+2020-03-10 01:18:31 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:18:31 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+2020-03-10 01:18:31 [JavaFX Application Thread] INFO  User:87 - User already exists
+2020-03-10 01:18:44 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:18:44 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:18:44 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:18:44 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:18:44 [cluster-ClusterId{value='5e669d9c8fbc9c1a605d61c3', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:3, serverValue:17}] to localhost:27017
+2020-03-10 01:18:44 [cluster-ClusterId{value='5e669d9c8fbc9c1a605d61c3', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2130513}
+2020-03-10 01:18:44 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:18:44 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:4, serverValue:18}] to localhost:27017
+2020-03-10 01:22:03 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 01:22:03 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 01:22:08 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:22:13 [JavaFX Application Thread] INFO  RegisterController:82 - Loading sign up window
+2020-03-10 01:22:21 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:22:22 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:22:22 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:22:22 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:22:22 [cluster-ClusterId{value='5e669e768fbc9c444c57d6e2', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:19}] to localhost:27017
+2020-03-10 01:22:22 [cluster-ClusterId{value='5e669e768fbc9c444c57d6e2', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=600508}
+2020-03-10 01:22:22 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:22:22 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:20}] to localhost:27017
+2020-03-10 01:22:22 [JavaFX Application Thread] INFO  User:86 - User already exists
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:22:29 [cluster-ClusterId{value='5e669e7d8fbc9c444c57d6e3', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:3, serverValue:21}] to localhost:27017
+2020-03-10 01:22:29 [cluster-ClusterId{value='5e669e7d8fbc9c444c57d6e3', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1363218}
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:4, serverValue:22}] to localhost:27017
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  User:90 - User does not exist
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:22:29 [cluster-ClusterId{value='5e669e7d8fbc9c444c57d6e4', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:5, serverValue:23}] to localhost:27017
+2020-03-10 01:22:29 [cluster-ClusterId{value='5e669e7d8fbc9c444c57d6e4', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1532827}
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:6, serverValue:24}] to localhost:27017
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  User:57 - Record added successfully to the database
+2020-03-10 01:22:29 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:38:38 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 01:38:38 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 01:38:43 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:39:07 [JavaFX Application Thread] INFO  RegisterController:85 - Loading sign up window
+2020-03-10 01:39:12 [JavaFX Application Thread] INFO  RegisterController:57 - Received invalid username or password
+2020-03-10 01:39:18 [JavaFX Application Thread] INFO  RegisterController:57 - Received invalid username or password
+2020-03-10 01:39:24 [JavaFX Application Thread] INFO  RegisterController:57 - Received invalid username or password
+2020-03-10 01:39:30 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:39:31 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:39:31 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:39:31 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:39:31 [cluster-ClusterId{value='5e66a27b1036be26a4dd2cef', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2020-03-10 01:39:31 [cluster-ClusterId{value='5e66a27b1036be26a4dd2cef', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=611439}
+2020-03-10 01:39:31 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:39:31 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:26}] to localhost:27017
+2020-03-10 01:39:31 [JavaFX Application Thread] INFO  User:86 - User already exists
+2020-03-10 01:39:38 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:39:38 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:39:38 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:39:38 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:39:38 [cluster-ClusterId{value='5e66a2821036be26a4dd2cf0', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:3, serverValue:27}] to localhost:27017
+2020-03-10 01:39:38 [cluster-ClusterId{value='5e66a2821036be26a4dd2cf0', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=2207736}
+2020-03-10 01:39:38 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:39:38 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:4, serverValue:28}] to localhost:27017
+2020-03-10 01:39:38 [JavaFX Application Thread] INFO  User:86 - User already exists
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  RegisterController:60 - Received valid username & password
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:39:47 [cluster-ClusterId{value='5e66a28b1036be26a4dd2cf1', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:5, serverValue:29}] to localhost:27017
+2020-03-10 01:39:47 [cluster-ClusterId{value='5e66a28b1036be26a4dd2cf1', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1113918}
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:6, serverValue:30}] to localhost:27017
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  User:90 - User does not exist
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:39:47 [cluster-ClusterId{value='5e66a28b1036be26a4dd2cf2', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:7, serverValue:31}] to localhost:27017
+2020-03-10 01:39:47 [cluster-ClusterId{value='5e66a28b1036be26a4dd2cf2', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=646700}
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:8, serverValue:32}] to localhost:27017
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  User:57 - Record added successfully to the database
+2020-03-10 01:39:47 [JavaFX Application Thread] INFO  LoginController:101 - Loading sign in window
+2020-03-10 01:57:08 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 01:57:08 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 01:57:13 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign up window
+2020-03-10 01:57:19 [JavaFX Application Thread] INFO  LoginController:61 - Received invalid username or password
+2020-03-10 01:57:25 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 01:57:26 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:57:26 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:57:26 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:57:26 [cluster-ClusterId{value='5e66a6ae1036be1888118aa2', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:33}] to localhost:27017
+2020-03-10 01:57:26 [cluster-ClusterId{value='5e66a6ae1036be1888118aa2', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=580056}
+2020-03-10 01:57:26 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:57:26 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2020-03-10 01:57:26 [JavaFX Application Thread] INFO  User:90 - User does not exist
+2020-03-10 01:57:29 [JavaFX Application Thread] INFO  RegisterController:86 - Loading sign up window
+2020-03-10 01:57:35 [JavaFX Application Thread] INFO  RegisterController:58 - Received invalid username or password
+2020-03-10 01:57:41 [JavaFX Application Thread] INFO  RegisterController:61 - Received valid username & password
+2020-03-10 01:57:41 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:57:41 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:57:41 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:57:41 [cluster-ClusterId{value='5e66a6bd1036be1888118aa3', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:3, serverValue:35}] to localhost:27017
+2020-03-10 01:57:41 [cluster-ClusterId{value='5e66a6bd1036be1888118aa3', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1957378}
+2020-03-10 01:57:41 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:57:42 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:4, serverValue:36}] to localhost:27017
+2020-03-10 01:57:42 [JavaFX Application Thread] INFO  User:86 - User already exists
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  RegisterController:61 - Received valid username & password
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:57:49 [cluster-ClusterId{value='5e66a6c51036be1888118aa4', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:5, serverValue:37}] to localhost:27017
+2020-03-10 01:57:49 [cluster-ClusterId{value='5e66a6c51036be1888118aa4', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1804695}
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:6, serverValue:38}] to localhost:27017
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  User:90 - User does not exist
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:57:49 [cluster-ClusterId{value='5e66a6c51036be1888118aa5', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:7, serverValue:39}] to localhost:27017
+2020-03-10 01:57:49 [cluster-ClusterId{value='5e66a6c51036be1888118aa5', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=459460}
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:8, serverValue:40}] to localhost:27017
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  User:61 - Record added successfully to the database
+2020-03-10 01:57:49 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign up window
+2020-03-10 01:57:59 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 01:57:59 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 01:57:59 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 01:57:59 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 01:57:59 [cluster-ClusterId{value='5e66a6cf1036be1888118aa7', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:9, serverValue:41}] to localhost:27017
+2020-03-10 01:57:59 [cluster-ClusterId{value='5e66a6cf1036be1888118aa7', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1582899}
+2020-03-10 01:57:59 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 01:57:59 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:10, serverValue:42}] to localhost:27017
+2020-03-10 01:57:59 [JavaFX Application Thread] INFO  User:86 - User already exists
+2020-03-10 01:58:00 [JavaFX Application Thread] INFO  LoginController:96 - Loading sign up window
+2020-03-10 02:06:13 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 02:06:13 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 02:06:21 [JavaFX Application Thread] INFO  LoginController:97 - Loading sign up window
+2020-03-10 02:07:05 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 02:07:07 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:07:07 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:07:07 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:07:07 [cluster-ClusterId{value='5e66a8f31036be172c7c73a0', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:43}] to localhost:27017
+2020-03-10 02:07:07 [cluster-ClusterId{value='5e66a8f31036be172c7c73a0', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=10230484}
+2020-03-10 02:07:07 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:07:08 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:44}] to localhost:27017
+2020-03-10 02:07:08 [JavaFX Application Thread] INFO  User:62 - User already exists
+2020-03-10 02:07:11 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:07:11 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:07:11 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:07:11 [cluster-ClusterId{value='5e66a8f71036be172c7c73a1', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:3, serverValue:45}] to localhost:27017
+2020-03-10 02:07:11 [cluster-ClusterId{value='5e66a8f71036be172c7c73a1', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=10497063}
+2020-03-10 02:07:11 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:07:11 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:4, serverValue:46}] to localhost:27017
+2020-03-10 02:07:11 [JavaFX Application Thread] INFO  LoginController:73 - Pwd: $2a$10$xti/c12bv8T/KXHU7tJn6.cGl18fFOdmiHhLW7qb3sWWrz.ARZrYu
+2020-03-10 02:07:14 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-10 02:17:54 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 02:17:54 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 02:17:59 [JavaFX Application Thread] INFO  LoginController:104 - Loading sign up window
+2020-03-10 02:18:07 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 02:18:08 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:18:08 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:18:08 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:18:09 [cluster-ClusterId{value='5e66ab881036be3ff00ca802', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:47}] to localhost:27017
+2020-03-10 02:18:09 [cluster-ClusterId{value='5e66ab881036be3ff00ca802', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=885774}
+2020-03-10 02:18:09 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:18:09 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:48}] to localhost:27017
+2020-03-10 02:18:09 [JavaFX Application Thread] INFO  User:62 - User already exists
+2020-03-10 02:18:09 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:18:09 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:18:09 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:18:09 [cluster-ClusterId{value='5e66ab891036be3ff00ca803', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:3, serverValue:49}] to localhost:27017
+2020-03-10 02:18:09 [cluster-ClusterId{value='5e66ab891036be3ff00ca803', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=957004}
+2020-03-10 02:18:09 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:18:09 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:4, serverValue:50}] to localhost:27017
+2020-03-10 02:18:09 [JavaFX Application Thread] ERROR User:91 - Password does not match
+2020-03-10 02:18:09 [JavaFX Application Thread] INFO  LoginController:81 - Failed to authenticate user
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:18:16 [cluster-ClusterId{value='5e66ab901036be3ff00ca804', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:5, serverValue:51}] to localhost:27017
+2020-03-10 02:18:16 [cluster-ClusterId{value='5e66ab901036be3ff00ca804', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=730976}
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:6, serverValue:52}] to localhost:27017
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  User:62 - User already exists
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:18:16 [cluster-ClusterId{value='5e66ab901036be3ff00ca805', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:7, serverValue:53}] to localhost:27017
+2020-03-10 02:18:16 [cluster-ClusterId{value='5e66ab901036be3ff00ca805', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=812430}
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:8, serverValue:54}] to localhost:27017
+2020-03-10 02:18:16 [JavaFX Application Thread] ERROR User:91 - Password does not match
+2020-03-10 02:18:16 [JavaFX Application Thread] INFO  LoginController:81 - Failed to authenticate user
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:18:19 [cluster-ClusterId{value='5e66ab931036be3ff00ca806', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:9, serverValue:55}] to localhost:27017
+2020-03-10 02:18:19 [cluster-ClusterId{value='5e66ab931036be3ff00ca806', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=576529}
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:10, serverValue:56}] to localhost:27017
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  User:62 - User already exists
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:18:19 [cluster-ClusterId{value='5e66ab931036be3ff00ca807', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:11, serverValue:57}] to localhost:27017
+2020-03-10 02:18:19 [cluster-ClusterId{value='5e66ab931036be3ff00ca807', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=674910}
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:12, serverValue:58}] to localhost:27017
+2020-03-10 02:18:19 [JavaFX Application Thread] ERROR User:91 - Password does not match
+2020-03-10 02:18:19 [JavaFX Application Thread] INFO  LoginController:81 - Failed to authenticate user
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:18:30 [cluster-ClusterId{value='5e66ab9e1036be3ff00ca808', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:13, serverValue:59}] to localhost:27017
+2020-03-10 02:18:30 [cluster-ClusterId{value='5e66ab9e1036be3ff00ca808', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=662568}
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:14, serverValue:60}] to localhost:27017
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  User:62 - User already exists
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:18:30 [cluster-ClusterId{value='5e66ab9e1036be3ff00ca809', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:15, serverValue:61}] to localhost:27017
+2020-03-10 02:18:30 [cluster-ClusterId{value='5e66ab9e1036be3ff00ca809', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=555725}
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:16, serverValue:62}] to localhost:27017
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  User:88 - Received matching password
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  LoginController:76 - User authenticated successfully
+2020-03-10 02:18:30 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window
+2020-03-10 02:20:51 [JavaFX Application Thread] INFO  WelcomeController:42 - Application started
+2020-03-10 02:20:51 [JavaFX Application Thread] INFO  WelcomeController:44 - Loading welcome window
+2020-03-10 02:20:56 [JavaFX Application Thread] INFO  LoginController:105 - Loading sign up window
+2020-03-10 02:21:05 [JavaFX Application Thread] INFO  LoginController:61 - Received invalid username or password
+2020-03-10 02:21:07 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 02:21:08 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:21:08 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:21:08 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:21:08 [cluster-ClusterId{value='5e66ac3c1036be2b24efbf4a', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:1, serverValue:63}] to localhost:27017
+2020-03-10 02:21:08 [cluster-ClusterId{value='5e66ac3c1036be2b24efbf4a', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1861466}
+2020-03-10 02:21:08 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:21:08 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:2, serverValue:64}] to localhost:27017
+2020-03-10 02:21:08 [JavaFX Application Thread] INFO  User:65 - User does not exist
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:21:19 [cluster-ClusterId{value='5e66ac471036be2b24efbf4b', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:3, serverValue:65}] to localhost:27017
+2020-03-10 02:21:19 [cluster-ClusterId{value='5e66ac471036be2b24efbf4b', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=8227972}
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:4, serverValue:66}] to localhost:27017
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  User:62 - User already exists
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:21:19 [cluster-ClusterId{value='5e66ac471036be2b24efbf4c', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:5, serverValue:67}] to localhost:27017
+2020-03-10 02:21:19 [cluster-ClusterId{value='5e66ac471036be2b24efbf4c', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=728860}
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:6, serverValue:68}] to localhost:27017
+2020-03-10 02:21:19 [JavaFX Application Thread] ERROR User:91 - Password does not match
+2020-03-10 02:21:19 [JavaFX Application Thread] INFO  LoginController:81 - Failed to authenticate user
+2020-03-10 02:21:30 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 02:21:30 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:21:30 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:21:30 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:21:30 [cluster-ClusterId{value='5e66ac521036be2b24efbf4d', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:7, serverValue:69}] to localhost:27017
+2020-03-10 02:21:30 [cluster-ClusterId{value='5e66ac521036be2b24efbf4d', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=1708784}
+2020-03-10 02:21:30 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:21:30 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:8, serverValue:70}] to localhost:27017
+2020-03-10 02:21:30 [JavaFX Application Thread] INFO  User:65 - User does not exist
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  LoginController:64 - Received valid username & password
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:21:38 [cluster-ClusterId{value='5e66ac5a1036be2b24efbf4e', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:9, serverValue:71}] to localhost:27017
+2020-03-10 02:21:38 [cluster-ClusterId{value='5e66ac5a1036be2b24efbf4e', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=558546}
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:10, serverValue:72}] to localhost:27017
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  User:62 - User already exists
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  Database:78 - Credentials ::MongoCredential{mechanism=null, userName='sampleUser', source='tumorteller', password=<hidden>, mechanismProperties={}}
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  cluster:71 - Cluster description not yet available. Waiting for 30000 ms before timing out
+2020-03-10 02:21:38 [cluster-ClusterId{value='5e66ac5a1036be2b24efbf4f', description='null'}-localhost:27017] INFO  connection:71 - Opened connection [connectionId{localValue:11, serverValue:73}] to localhost:27017
+2020-03-10 02:21:38 [cluster-ClusterId{value='5e66ac5a1036be2b24efbf4f', description='null'}-localhost:27017] INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 9]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=656926}
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  Database:82 - Connected to the database successfully
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  connection:71 - Opened connection [connectionId{localValue:12, serverValue:74}] to localhost:27017
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  User:88 - Received matching password
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  LoginController:76 - User authenticated successfully
+2020-03-10 02:21:38 [JavaFX Application Thread] INFO  MainController:32 - Loading sign in window

@@ -1,0 +1,15 @@
+package com.tumorteller.controller;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+
+public class RegController {
+	
+	@FXML
+	private static TextField txtUser;
+
+	@FXML
+	private static PasswordField txtPwd;
+
+}

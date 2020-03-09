@@ -1,0 +1,71 @@
+package com.tumorteller.ui;
+
+import java.io.IOException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.tumorteller.utility.Database;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
+
+public class Main extends Application {
+
+	private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
+
+	
+	@Override
+	public void start(Stage stage) throws Exception {
+		log.info("Application started");
+		Parent root = FXMLLoader.load(getClass().getResource("/views/main.fxml"));
+		Scene scene = new Scene(root);
+		stage.setScene(scene);
+		stage.setTitle("Tumor Teller");
+		stage.getIcons().add(new Image(this.getClass().getResourceAsStream("/images/duck.jpg")));
+		stage.show();
+		new MainController().displayNextWindow();
+	}
+
+	
+	
+
+	
+	//public void startMongoDB() {
+//		Runtime rt = Runtime.getRuntime();
+//		try {
+//			rt.exec(new String[] { "cmd.exe", "/c", "mongod" });
+//
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
+		
+//		 ProcessBuilder builder = new ProcessBuilder("cmd.exe", "/c", "mongod");
+//		 builder.redirectErrorStream(true);
+//		 try {
+//			builder.start();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		        
+		        
+	//}
+
+	
+	public static void main(String[] args) {
+//		new Main().startMongoDB();
+		Application.launch(args);
+		
+	}
+	
+
+}

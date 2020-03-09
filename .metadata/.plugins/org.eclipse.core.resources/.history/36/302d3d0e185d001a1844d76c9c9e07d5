@@ -1,0 +1,10 @@
+package com.tumorteller.utility;
+
+public class Logging {
+	
+	private Logging 
+	private Logging() {
+		
+	}
+
+}

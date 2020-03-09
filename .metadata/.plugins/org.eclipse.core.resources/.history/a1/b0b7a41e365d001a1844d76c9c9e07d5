@@ -1,0 +1,98 @@
+package com.tumorteller.controllers;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.tumorteller.models.UserModel;
+import com.tumorteller.views.LoginView;
+import com.tumorteller.views.RegisterView;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Hyperlink;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+
+
+public class LoginController implements Initializable {
+
+
+	@FXML
+	private Label lblMessage;
+
+	@FXML
+	private TextField txtUsername;
+
+	@FXML
+	private TextField txtPassword;
+
+	@FXML
+	private Hyperlink register;
+	
+	private static Logger log = LoggerFactory.getLogger("LoginController");
+
+	
+	@Override
+	public void initialize(URL arg0, ResourceBundle arg1) {
+		txtUsername = new TextField();
+		txtPassword = new TextField();
+	}
+
+	
+	@FXML
+	public void handleSignIn() {
+		String username = txtUsername.getText() ;
+		String password = txtPassword.getText() ;
+
+		if (username.isEmpty() || password.isEmpty()) {
+			lblMessage.setText("Invalid username or password");
+			log.error("Invalid username or password");
+		} else if (username.isEmpty() && password.isEmpty()) {
+			lblMessage.setText("Invalid username or password");
+			log.error("Empty login credentials");
+		} else if (!(username.isEmpty()) && !(password.isEmpty())) {
+			log.info("Received valid username & password");			
+			
+			// Check if the user is registered
+			UserModel user = new UserModel();
+			if(user.isRegisterd(username)) {
+				// Check if the entered password is correct
+				if(user.isCorrectPassword(password, user.hashPassword(password))) {
+					log.info("Received valid login credentials");
+				}
+				else {
+					log.error("Received invalid login credentials");
+				}
+			}
+			else {
+				lblMessage.setText("Invalid User");
+			}
+			
+			
+		}
+	}
+	
+	
+	@FXML
+	public void handleCreateAccount() {
+		LoginView.loginStage.close();
+		
+		RegisterView registerView = new RegisterView();
+		registerView.displaySignUp();
+
+	}
+
+//	public void displayLoginWindow() throws IOException {
+//		Parent root = FXMLLoader.load(getClass().getResource("/views/login.fxml"));
+//		loginStage = new Stage();
+//		Scene scene = new Scene(root);
+//		loginStage.setScene(scene);
+//		loginStage.setTitle("Tumor Teller");
+//		loginStage.getIcons().add(new Image(this.getClass().getResourceAsStream("/images/duck.jpg")));
+//		loginStage.show();
+//	}
+
+}

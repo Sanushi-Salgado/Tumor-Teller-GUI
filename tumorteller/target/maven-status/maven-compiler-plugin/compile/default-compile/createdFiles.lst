@@ -1,0 +1,9 @@
+com\tumorteller\models\Patient.class
+com\tumorteller\controllers\MainController.class
+com\tumorteller\controllers\RegisterController.class
+com\tumorteller\models\Feedback.class
+com\tumorteller\utility\Database.class
+com\tumorteller\models\Doctor.class
+com\tumorteller\controllers\WelcomeController.class
+com\tumorteller\controllers\LoginController.class
+com\tumorteller\models\UserModel.class

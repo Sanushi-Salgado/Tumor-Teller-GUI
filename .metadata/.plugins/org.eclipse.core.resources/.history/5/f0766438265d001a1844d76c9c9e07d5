@@ -1,0 +1,19 @@
+package com.tumorteller.views;
+
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.image.Image;
+import javafx.stage.Stage;
+
+public class RegisterView {
+
+	public void displaySignUp() {
+		root = FXMLLoader.load(getClass().getResource("/views/register.fxml"));
+		Scene scene = new Scene(root);
+		loginStage = new Stage();
+		registerStage = new Stage();
+		registerStage.setScene(scene);
+		registerStage.setTitle("Tumor Teller");
+		registerStage.getIcons().add(new Image(this.getClass().getResourceAsStream("/images/duck.jpg")));
+	}
+}

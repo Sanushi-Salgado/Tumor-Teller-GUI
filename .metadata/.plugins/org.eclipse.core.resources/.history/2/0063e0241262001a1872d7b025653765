@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import com.tumorteller.controller.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tumorteller.controller.RegisterController">
+	<children>
+		<AnchorPane layoutX="-1.0" prefHeight="434.0" prefWidth="253.0" style="-fx-background-color: #362159;">
+			<children>
+				<Label layoutX="60.0" layoutY="88.0" text="Tumor Teller" textFill="#e8e8e8">
+					<font>
+						<Font size="24.0" />
+					</font>
+				</Label>
+			</children>
+		</AnchorPane>
+		<Label layoutX="335.0" layoutY="97.0" text="Sign in to Tumor Teller" textFill="#2a1067">
+			<font>
+				<Font size="18.0" />
+			</font>
+		</Label>
+		<Button fx:id="btnSignUp" alignment="CENTER" contentDisplay="CENTER" layoutX="403.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#handleSignUp" style="-fx-background-color: #362159;" text="SIGN UP" textFill="#f5f5f5" />
+		<Hyperlink layoutX="335.0" layoutY="345.0" text="Create Account" />
+		<Hyperlink layoutX="451.0" layoutY="345.0" text="Forgot Password?" />
+		<Label layoutX="436.0" layoutY="348.0" text="|" />
+		<TextField fx:id="txtUsername" layoutX="325.0" layoutY="179.0" prefHeight="25.0" prefWidth="222.0" promptText="Username" style="-fx-background-radius: 7 7 7 7;" />
+		<PasswordField fx:id="txtPassword" layoutX="325.0" layoutY="228.0" prefHeight="25.0" prefWidth="222.0" promptText="Password" style="-fx-background-radius: 7 7 7 7;" />
+		<Label fx:id="lblLoginError" layoutX="411.0" layoutY="151.0" textAlignment="CENTER" textFill="#da0f0f" />
+	</children>
+</AnchorPane>

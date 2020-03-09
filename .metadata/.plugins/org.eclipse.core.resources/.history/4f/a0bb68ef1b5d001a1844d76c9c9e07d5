@@ -1,0 +1,76 @@
+package com.tumorteller.models;
+
+import org.bson.Document;
+import org.mindrot.jbcrypt.BCrypt;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.mongodb.BasicDBObject;
+import com.mongodb.BasicDBObjectBuilder;
+import com.mongodb.DBObject;
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.util.JSON;
+import com.tumorteller.utility.Database;
+
+public class User {
+
+	private String username;
+	private String password;
+
+	private static Logger log = LoggerFactory.getLogger("User");
+	
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public void registerUser(String username, String password) {
+		// Add the new user to the database
+		Database database = Database.getInstance();
+		MongoClient mongoClient = database.getConnection();
+		MongoDatabase db = mongoClient.getDatabase("tumorteller");
+		MongoCollection<Document> userCollection = db.getCollection("users");
+		
+		
+		String hashedPassword = hashPassword(password);
+		Document user = new Document();
+		user.append("username", username);
+		user.append("password", hashedPassword);
+        userCollection.insertOne(user);
+        log.info("Record added successfully to the database");
+	}
+
+	public void loginUser(String password) {
+		String hashedPassword = hashPassword(password);
+		checkPass(password, hashedPassword);
+	}
+	
+	public String hashPassword(String plainTextPassword){
+		return BCrypt.hashpw(plainTextPassword, BCrypt.gensalt());
+	}
+	
+	public boolean checkPass(String plainPassword, String hashedPassword) {
+		if (BCrypt.checkpw(plainPassword, hashedPassword)) {
+			log.info("Received matching password");
+			return true;
+		}
+		else {
+			log.error("Password does not match");
+			return false;
+		}
+	}
+
+}

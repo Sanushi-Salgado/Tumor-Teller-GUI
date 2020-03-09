@@ -1,0 +1,5 @@
+package com.tumorteller.views;
+
+public class LoginView {
+
+}

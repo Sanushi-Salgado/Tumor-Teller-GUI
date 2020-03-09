@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import com.tumorteller.controller.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.tumorteller.controller.WelcomeController">
+	<children>
+		<AnchorPane prefHeight="470.0" prefWidth="540.0"
+			style="-fx-background-color: #362159;">
+			<children>
+				<Label layoutX="170.0" layoutY="106.0" text="Tumor Teller"
+					textFill="#f8f8f8">
+					<font>
+						<Font size="36.0" />
+					</font>
+				</Label>
+				<ProgressIndicator fx:id="progressIndicator"
+					layoutX="217.0" layoutY="258.0" prefHeight="68.0" prefWidth="90.0"
+					progress="0.0" />
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

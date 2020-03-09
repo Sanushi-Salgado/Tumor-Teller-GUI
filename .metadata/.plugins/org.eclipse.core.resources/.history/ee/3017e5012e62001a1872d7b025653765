@@ -1,0 +1,22 @@
+package com.tumorteller.utility;
+
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.stage.StageStyle;
+
+/**
+ * @author Sanushi Salgado
+ *
+ */
+public class AlertManager {
+
+	
+	public void displayAlert() {
+		Alert alert = new Alert(AlertType.ERROR);
+		alert.setTitle("Error");
+		alert.setHeaderText(null);
+		alert.setContentText("Username or password cannot be empty");
+		alert.showAndWait();
+		alert.initStyle(StageStyle.UTILITY);
+	}
+}
