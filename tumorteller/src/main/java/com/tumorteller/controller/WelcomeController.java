@@ -7,6 +7,8 @@ import java.util.ResourceBundle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.tumorteller.utility.WindowManager;
+
 import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.fxml.FXML;
@@ -47,7 +49,7 @@ public class WelcomeController extends Application implements Initializable {
 			welcomeStage = stage;
 			welcomeStage.setScene(scene);
 			welcomeStage.setTitle("Tumor Teller");
-			welcomeStage.getIcons().add(new Image(this.getClass().getResourceAsStream("/images/duck.jpg")));
+			welcomeStage.getIcons().add(new Image(this.getClass().getResourceAsStream("/images/logo.jpg")));
 			welcomeStage.show();
 		} catch (IOException e) {
 			log.error("Failed to load welcome window");
@@ -57,6 +59,7 @@ public class WelcomeController extends Application implements Initializable {
 		main.displayNextWindow(welcomeStage);
 	}
 
+	
 	public void displayNextWindow(Stage stageToClose) {
 		progressIndicator = new ProgressIndicator();
 		PauseTransition delay = new PauseTransition(Duration.seconds(5));
@@ -69,8 +72,7 @@ public class WelcomeController extends Application implements Initializable {
 				progressIndicator.setProgress(values[i]);
 
 			stageToClose.close();
-			LoginController loginController = new LoginController();
-			loginController.displaySignIn();
+			new WindowManager().displayWindow(LoginController.loginStage, "login", "sign in");
 		});
 		delay.play();
 	}

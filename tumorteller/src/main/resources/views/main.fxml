@@ -1,62 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
-<?import javafx.scene.text.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.control.*?>
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import com.tumorteller.controller.*?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
-	minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0"
-	prefWidth="666.0" xmlns="http://javafx.com/javafx/8"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+	prefWidth="600.0" style="-fx-background-color: #362159;"
+	xmlns="http://javafx.com/javafx/11.0.1"
 	xmlns:fx="http://javafx.com/fxml/1"
 	fx:controller="com.tumorteller.controller.MainController">
 	<children>
-		<AnchorPane layoutY="-1.0" prefHeight="506.0"
-			prefWidth="223.0" style="-fx-background-color: #362159;">
-			<children>
-				<Button layoutY="131.0" mnemonicParsing="false"
-					prefHeight="40.0" prefWidth="226.0"
-					style="-fx-background-color: #5E4882;" text="Home" textFill="WHITE" />
-				<ImageView fitHeight="28.0" fitWidth="36.0" layoutX="8.0"
-					layoutY="137.0" pickOnBounds="true" preserveRatio="true">
-					<image>
-						<Image url="@../icons/Paws.JPG" />
-					</image>
-				</ImageView>
-				<Label layoutX="90.0" layoutY="47.0" text="Tumor Teller"
-					textAlignment="CENTER" textFill="#f8f8f8" />
-				<Button layoutY="178.0" mnemonicParsing="false"
-					prefHeight="40.0" prefWidth="226.0"
-					style="-fx-background-color: #362159;" text="Add Patient"
-					textFill="WHITE" />
-				<ImageView fitHeight="28.0" fitWidth="36.0" layoutX="8.0"
-					layoutY="184.0" pickOnBounds="true" preserveRatio="true">
-					<image>
-						<Image url="@../icons/Paws.JPG" />
-					</image>
-				</ImageView>
-				<MenuButton layoutX="4.0" layoutY="226.0"
-					mnemonicParsing="false" prefHeight="40.0" prefWidth="220.0"
-					style="-fx-background-color: #362159;" text="Help"
-					textFill="#fff8f8">
+		<MenuBar layoutY="1.0" prefHeight="25.0" prefWidth="600.0">
+			<menus>
+				<Menu mnemonicParsing="false" text="File">
 					<items>
-						<MenuItem mnemonicParsing="false" text="About" />
-						<MenuItem mnemonicParsing="false" text="User Manual" />
+						<MenuItem mnemonicParsing="false" text="Add Patient" />
+						<SeparatorMenuItem mnemonicParsing="false" />
+						<MenuItem fx:id="exitMenu" mnemonicParsing="false"
+							onAction="#handleExitMenu" text="Exit" />
 					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Tools">
+					<items>
+						<MenuItem mnemonicParsing="false" text="Delete" />
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Help">
+					<items>
+						<MenuItem fx:id="manualsMenu" mnemonicParsing="false"
+							onAction="#handleManualsMenu" text="Manuals" />
+						<MenuItem fx:id="aboutMenu" mnemonicParsing="false"
+							onAction="#handleAboutMenu" text="About Tumor Teller" />
+					</items>
+				</Menu>
+			</menus>
+		</MenuBar>
+		<ToolBar layoutY="26.0" prefHeight="53.0" prefWidth="600.0"
+			style="-fx-background-color: white;">
+			<items>
+				<Button mnemonicParsing="false" onAction="#handleAddButton"
+					style="-fx-background-color: white;" text="Add">
 					<graphic>
-						<ImageView fitHeight="102.0" fitWidth="47.0"
+						<ImageView fitHeight="36.0" fitWidth="39.0"
 							pickOnBounds="true" preserveRatio="true">
 							<image>
-								<Image url="@../icons/Paws.JPG" />
+								<Image url="@../icons/add.JPG" />
 							</image>
 						</ImageView>
 					</graphic>
-				</MenuButton>
-			</children>
-		</AnchorPane>
+				</Button>
+				<Button mnemonicParsing="false" onAction="#handleViewButton"
+					style="-fx-background-color: white;" text="View">
+					<graphic>
+						<ImageView fitHeight="36.0" fitWidth="39.0"
+							pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../icons/view.JPG" />
+							</image>
+						</ImageView>
+					</graphic>
+				</Button>
+				<Button mnemonicParsing="false"
+					onAction="#handleExportButton" style="-fx-background-color: white;"
+					text="Export">
+					<graphic>
+						<ImageView fitHeight="36.0" fitWidth="39.0"
+							pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../icons/export.JPG" />
+							</image>
+						</ImageView>
+					</graphic>
+				</Button>
+			</items>
+		</ToolBar>
 	</children>
 </AnchorPane>

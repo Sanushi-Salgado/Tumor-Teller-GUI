@@ -3,6 +3,9 @@ package com.tumorteller.model;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * @author Sanushi Salgado
  *
@@ -12,6 +15,8 @@ public class Patient {
 	private String name;
 	private int age;
 	private Map<String, String> symptoms = new LinkedHashMap<String, String>();
+	
+	private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
 
 	public String getName() {
 		return name;
@@ -57,4 +62,5 @@ public class Patient {
 		
 	}
 
+	
 }

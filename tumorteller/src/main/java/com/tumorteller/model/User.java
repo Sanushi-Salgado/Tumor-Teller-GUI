@@ -20,7 +20,7 @@ public class User {
 	private String username;
 	private String password;
 
-	private static Logger log = LoggerFactory.getLogger("User");
+	private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
 
 	public User(String username, String password) {
 		this.username = username;

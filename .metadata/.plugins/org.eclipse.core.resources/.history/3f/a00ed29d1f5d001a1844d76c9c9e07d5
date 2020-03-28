@@ -1,6 +1,0 @@
-package com.tumorteller.controllers;
-
-public class Snippet {
-	/ Check if the user is registered
-}
-

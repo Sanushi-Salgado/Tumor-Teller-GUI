@@ -1,9 +1,0 @@
-package com.tumorteller.utility;
-
-/**
- * @author Sanushi Salgado
- *
- */
-public class AlertManager {
-
-}

@@ -1,9 +1,12 @@
 package com.tumorteller.utility;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Properties;
 
 import org.slf4j.Logger;
@@ -29,7 +32,7 @@ public class Database {
 
 	private static MongoClient mongoClient;
 
-	private static Logger log = LoggerFactory.getLogger("Database");
+	private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
 	
 
 	private Database() {
@@ -52,10 +55,10 @@ public class Database {
 	
 	
 	public MongoClient getConnection() {
-		FileReader reader;
-
+		InputStream in = getClass().getResourceAsStream("/conf/database.properties"); 
+		BufferedReader reader = new BufferedReader(new InputStreamReader(in));
 		try {
-			reader = new FileReader(new File(getClass().getClassLoader().getResource("database.properties").getFile()));
+//			reader = new FileReader( new File( getClass().getClassLoader().getResource("database.properties").getFile() ));
 			Properties properties = new Properties();
 			properties.load(reader);
 			databaseHost = properties.getProperty("db.hostName");
