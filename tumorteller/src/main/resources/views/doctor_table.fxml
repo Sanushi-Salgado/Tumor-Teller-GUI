@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.layout*?>
+<?import javafx.scene.control.*?>
+<?import com.tumorteller.controller.*?>
+
+<AnchorPane id="AnchorPane" fx:id="deleteRows"
+	prefHeight="492.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.tumorteller.controller.MyController">
+	<children>
+		<TableView fx:id="myTableView" prefHeight="-1.0"
+			prefWidth="-1.0">
+			<columns>
+				<TableColumn fx:id="idColumn" prefWidth="100.0"
+					text="Id" />
+			</columns>
+		</TableView>
+	</children>
+</AnchorPane>
+

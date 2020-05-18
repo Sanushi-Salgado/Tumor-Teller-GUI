@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import jfxtras.labs.scene.control.*?>
+<?import com.tumorteller.controller.*?>
+
+<AnchorPane minWidth="315.0" prefHeight="300.0"
+	prefWidth="315.0" xmlns:fx="http://javafx.com/fxml"
+	fx:controller="com.tumorteller.controller.DoctorTableController">
+	<children>
+		<TableView fx:id="doctorTable" prefHeight="-1.0"
+			prefWidth="-1.0" tableMenuButtonVisible="false"
+			AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0"
+			AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="40.0">
+			<columns>
+				<TableColumn maxWidth="5000.0" minWidth="10.0"
+					prefWidth="120.0" text="First Name" fx:id="columnName" />
+				<TableColumn maxWidth="5000.0" minWidth="10.0"
+					prefWidth="120.0" text="Last Name" fx:id="columnUsername" />
+				<TableColumn maxWidth="5000.0" minWidth="10.0"
+					prefWidth="120.0" text="Pwd" fx:id="columnPassword" />
+			</columns>
+		</TableView>
+		<HBox id="HBox" alignment="CENTER" spacing="5.0"
+			AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"
+			AnchorPane.topAnchor="10.0">
+			<children>
+				<Label text="Filter Table:" />
+				<TextField fx:id="filterField" prefWidth="-1.0"
+					HBox.hgrow="ALWAYS" />
+			</children>
+		</HBox>
+	</children>
+</AnchorPane>

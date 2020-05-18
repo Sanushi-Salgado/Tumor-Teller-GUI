@@ -1,0 +1,405 @@
+https://stackoverflow.com/questions/13567019/close-fxml-window-by-code-javafx
+
+https://github.com/satishkrupadhyay/Iris-Prediction-with-Web-API - 
+
+
+
+
+
+
+
+
+
+
+// String name = txtName.getText().trim();
+		//
+		// RadioButton selectedSex = (RadioButton) sex.getSelectedToggle();
+		// String gender = selectedSex.getText();
+		// log.info("Selected gender - " + selectedSex.getText());
+		//
+		// RadioButton selectedAge = (RadioButton) age.getSelectedToggle();
+		// String age = selectedAge.getText();
+		// log.info("Selected age - " + selectedAge.getText());
+		//
+		// RadioButton selectedHisto = (RadioButton) histo_type.getSelectedToggle();
+		// String histologic_type = selectedHisto.getText();
+		// log.info("Selected histo - " + selectedHisto.getText());
+		//
+		// String degree_of_differece = ((RadioButton)
+		// degree.getSelectedToggle()).getText();
+		//
+		// String bone_symptoms = ((RadioButton) bone.getSelectedToggle()).getText();
+		//
+		// String bone_marrow_symptoms = ((RadioButton)
+		// bone_marrow.getSelectedToggle()).getText();
+		//
+		// String lung_symptoms = ((RadioButton) lung.getSelectedToggle()).getText();
+		//
+		// String pleura_symptoms = ((RadioButton)
+		// pleura.getSelectedToggle()).getText();
+		//
+		// String peritoneum_symptoms = ((RadioButton)
+		// peritoneum.getSelectedToggle()).getText();
+		//
+		// String liver_symptoms = ((RadioButton) liver.getSelectedToggle()).getText();
+		//
+		// String brain_symptoms = ((RadioButton) brain.getSelectedToggle()).getText();
+		//
+		// String skin_symptoms = ((RadioButton) skin.getSelectedToggle()).getText();
+		//
+		// String neck_symptoms = ((RadioButton) neck.getSelectedToggle()).getText();
+		//
+		// String supraclavicular_symptoms = ((RadioButton)
+		// supraclavicular.getSelectedToggle()).getText();
+		//
+		// String axillar_symptoms = ((RadioButton)
+		// axillar.getSelectedToggle()).getText();
+		//
+		// String mediastinum_symptoms = ((RadioButton)
+		// mediastinum.getSelectedToggle()).getText();
+		//
+		// String abdominal_symptoms = ((RadioButton)
+		// abdominal.getSelectedToggle()).getText();
+		
+		
+		
+		
+		
+//		if (predictedRegion.equals("1")) {
+//			try {
+//				url = new URL("http://127.0.0.1:5000/predict_ur_organ");
+//			} catch (MalformedURLException e) {
+//				log.error("Incorrect url endpoint");
+//			}
+//		} else if (predictedRegion.equals("2")) {
+//			try {
+//				url = new URL("http://127.0.0.1:5000/predict_tr_organ");
+//			} catch (MalformedURLException e) {
+//				log.error("Incorrect url endpoint");
+//			}
+//		} else if (predictedRegion.equals("3")) {
+//			try {
+//				url = new URL("http://127.0.0.1:5000/predict_ip_organ");
+//			} catch (MalformedURLException e) {
+//				log.error("Incorrect url endpoint");
+//			}
+//		} else if (predictedRegion.equals("4")) {
+//			try {
+//				url = new URL("http://127.0.0.1:5000/predict_ep_organ");
+//			} catch (MalformedURLException e) {
+//				log.error("Incorrect url endpoint");
+//			}
+//		}
+
+
+
+
+
+	// desktop = Won't give an error - http_server.py
+		// desktop = Givs error - python http_server.py
+
+		// https://stackoverflow.com/questions/1359689/how-to-send-http-request-in-java
+		// Notifies when an agent gets connected
+		// URL yahoo = new URL("http://localhost:8081/agent");
+		// URL yahoo = new
+		// URL("http://127.0.0.1:5000/predict?sepal_length=7.0&sepal_width=2.5&petal_length=7.5&petal_width=2");
+		// URLConnection yc = yahoo.openConnection();
+		// BufferedReader in = new BufferedReader(new
+		// InputStreamReader(yc.getInputStream()));
+		// String inputLine;
+		//
+		// while ((inputLine = in.readLine()) != null)
+		// System.out.println(inputLine);
+		// in.close();
+		
+		
+		
+		
+		
+		
+		
+//		if (predictedRegion.equals("1")) {
+//			String predictedUpperRegionOrgan = new d().predictUpperRegionOrgan(params);
+//			log.info("Predicted Upper Region Organ: " + predictedUpperRegionOrgan);
+//
+//		} else if (predictedRegion.equals("2")) {
+//			String predictedThoracicRegionOrgan = new d().predictThoracicRegionOrgan(params);
+//			log.info("Predicted Thoracic Region Organ: " + predictedThoracicRegionOrgan);
+//
+//		} else if (predictedRegion.equals("3")) {
+//			String predictedUpperRegionOrgan = new d().predictIntraperitonealRegionOrgan(params);
+//			log.info(predictedUpperRegionOrgan);
+//			
+//		} else if (predictedRegion.equals("4")) {
+//			String predictedUpperRegionOrgan = new d().predictUpperRegionOrgan(params);
+//			log.info(predictedUpperRegionOrgan);
+//		}
+		
+		
+		
+		
+//	String predictUpperRegionOrgan(Map<String, Object> params) throws IOException {
+//		URL url = null;
+//		try {
+//			url = new URL("http://127.0.0.1:5000/predict_ur_organ");
+//		} catch (MalformedURLException e) {
+//			log.error("Incorrect url endpoint");
+//		}
+//
+//		log.info("Received params: " + params);
+//		for (Map.Entry<String, Object> param : params.entrySet()) {
+//			System.out.println(param.getKey() + " " + param.getValue());
+//		}
+//
+//		StringBuilder postData = new StringBuilder();
+//		for (Map.Entry<String, Object> param : params.entrySet()) {
+//			if (postData.length() != 0)
+//				postData.append('&');
+//			postData.append(URLEncoder.encode(param.getKey(), "UTF-8"));
+//			postData.append('=');
+//			postData.append(URLEncoder.encode(String.valueOf(param.getValue()), "UTF-8"));
+//		}
+//		byte[] postDataBytes = postData.toString().getBytes("UTF-8");
+//
+//		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+//		conn.setRequestMethod("POST");
+//		conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+//		conn.setRequestProperty("Content-Length", String.valueOf(postDataBytes.length));
+//		conn.setDoOutput(true);
+//		conn.getOutputStream().write(postDataBytes);
+//
+//		BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
+//		String output;
+//		log.info("Output from Server .... \n");
+//		while ((output = br.readLine()) != null) {
+//			System.out.println(output);
+//			return output;
+//		}
+//
+//		return output;
+//	}
+//
+//	String predictThoracicRegionOrgan(Map<String, Object> params) throws IOException {
+//		URL url = null;
+//		try {
+//			url = new URL("http://127.0.0.1:5000/predict_tr_organ");
+//		} catch (MalformedURLException e) {
+//			log.error("Incorrect url endpoint");
+//		}
+//
+//		log.info("Received params: " + params);
+//		for (Map.Entry<String, Object> param : params.entrySet()) {
+//			System.out.println(param.getKey() + " " + param.getValue());
+//		}
+//
+//		StringBuilder postData = new StringBuilder();
+//		for (Map.Entry<String, Object> param : params.entrySet()) {
+//			if (postData.length() != 0)
+//				postData.append('&');
+//			postData.append(URLEncoder.encode(param.getKey(), "UTF-8"));
+//			postData.append('=');
+//			postData.append(URLEncoder.encode(String.valueOf(param.getValue()), "UTF-8"));
+//		}
+//		byte[] postDataBytes = postData.toString().getBytes("UTF-8");
+//
+//		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+//		conn.setRequestMethod("POST");
+//		conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+//		conn.setRequestProperty("Content-Length", String.valueOf(postDataBytes.length));
+//		conn.setDoOutput(true);
+//		conn.getOutputStream().write(postDataBytes);
+//
+//		BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
+//		String output;
+//		log.info("Output from Server .... \n");
+//		while ((output = br.readLine()) != null) {
+//			System.out.println(output);
+//			return output;
+//		}
+//
+//		return output;
+//	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		void connectClient() {
+		HttpURLConnection conn = null;
+		DataOutputStream os = null;
+		try {
+			// URL url = new URL("http://localhost:8081");
+			URL url = new URL("http://127.0.0.1:5000/postjson/"); // important to add the trailing slash after add
+			String[] inputData = {
+					// "{\"x\": 5, \"y\": 8, \"text\":\"random text\"}",
+					// "{\"x\":5, \"y\":14, \"text\":\"testing\"}"
+
+					"{\"a\": 5, \"b\": 20, \"c\":4, \"d\":2}"
+					// "{\"x\":5, \"y\":14, \"text\":\"testing\"}"
+
+					// "{\"sepLen\": 5, \"sepWid\": 8, \"petLen\": 8, \"petWid\": 4}"
+
+			};
+			for (String input : inputData) {
+				byte[] postData = input.getBytes(StandardCharsets.UTF_8);
+				conn = (HttpURLConnection) url.openConnection();
+				conn.setDoOutput(true);
+				conn.setRequestMethod("POST");
+				conn.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
+				// conn.setRequestProperty("charset", "utf-8");
+				conn.setRequestProperty("Content-Length", Integer.toString(input.length()));
+				os = new DataOutputStream(conn.getOutputStream());
+				os.write(postData);
+				os.flush();
+
+				if (conn.getResponseCode() != 200) {
+					throw new RuntimeException("Failed : HTTP error code : " + conn.getResponseCode());
+				}
+
+				BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
+
+				String output;
+				System.out.println("Output from Server .... \n");
+				while ((output = br.readLine()) != null) {
+					System.out.println(output);
+				}
+				conn.disconnect();
+			}
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (conn != null) {
+				conn.disconnect();
+			}
+		}
+	}
+
+	// public static void main(String args[]){
+	// HttpURLConnection conn = null;
+	// DataOutputStream os = null;
+	// try{
+	// URL url = new URL("http://127.0.0.1:8081");
+	//// URL url = new URL("http://127.0.0.1:5000/add/"); //important to add the
+	// trailing slash after add
+	// String[] inputData = {
+	// "{\"x\": 5, \"y\": 8, \"text\":\"random text\"}",
+	// "{\"x\":5, \"y\":14, \"text\":\"testing\"}"
+	// };
+	// for(String input: inputData){
+	// byte[] postData = input.getBytes(StandardCharsets.UTF_8);
+	// conn = (HttpURLConnection) url.openConnection();
+	// conn.setDoOutput(true);
+	// conn.setRequestMethod("POST");
+	// conn.setRequestProperty("Content-Type", "application/json");
+	// conn.setRequestProperty( "charset", "utf-8");
+	// conn.setRequestProperty("Content-Length", Integer.toString(input.length()));
+	// os = new DataOutputStream(conn.getOutputStream());
+	// os.write(postData);
+	// os.flush();
+	//
+	// if (conn.getResponseCode() != 200) {
+	// throw new RuntimeException("Failed : HTTP error code : "
+	// + conn.getResponseCode());
+	// }
+	//
+	// BufferedReader br = new BufferedReader(new InputStreamReader(
+	// (conn.getInputStream())));
+	//
+	// String output;
+	// System.out.println("Output from Server .... \n");
+	// while ((output = br.readLine()) != null) {
+	// System.out.println(output);
+	// }
+	// conn.disconnect();
+	// }
+	// } catch (MalformedURLException e) {
+	// e.printStackTrace();
+	// }catch (IOException e){
+	// e.printStackTrace();
+	// }finally
+	// {
+	// if(conn != null)
+	// {
+	// conn.disconnect();
+	// }
+	// }
+	// }
+	
+	
+	
+	
+	
+void make_request() throws IOException {
+		URL url = new URL("http://127.0.0.1:5000/predict");
+		Map<String, Object> params = new LinkedHashMap<>();
+		params.put("sepLen", 4);
+		params.put("sepWid", 6);
+		params.put("petLen", 2);
+		params.put("petWid", 10);
+
+		StringBuilder postData = new StringBuilder();
+		for (Map.Entry<String, Object> param : params.entrySet()) {
+			if (postData.length() != 0)
+				postData.append('&');
+			postData.append(URLEncoder.encode(param.getKey(), "UTF-8"));
+			postData.append('=');
+			postData.append(URLEncoder.encode(String.valueOf(param.getValue()), "UTF-8"));
+		}
+		byte[] postDataBytes = postData.toString().getBytes("UTF-8");
+
+		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+		conn.setRequestMethod("POST");
+		conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+		conn.setRequestProperty("Content-Length", String.valueOf(postDataBytes.length));
+		conn.setDoOutput(true);
+		conn.getOutputStream().write(postDataBytes);
+
+		Reader in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
+
+		for (int c; (c = in.read()) >= 0;)
+			System.out.print((char) c);
+	}
+
+	void make_post_request() throws ClientProtocolException, IOException {
+		/*
+		 * Create the POST request
+		 */
+		String postURL = "http://127.0.0.1:5000/predict";
+
+		HttpPost post = new HttpPost(postURL);
+
+		List<NameValuePair> params = new ArrayList<NameValuePair>();
+		params.add(new BasicNameValuePair("sepLen", "10"));
+		params.add(new BasicNameValuePair("sepWid", "5"));
+		params.add(new BasicNameValuePair("petLen", "3"));
+		params.add(new BasicNameValuePair("petWid", "1"));
+
+		UrlEncodedFormEntity ent = new UrlEncodedFormEntity(params, "UTF-8");
+		post.setEntity(ent);
+
+		HttpClient client = new DefaultHttpClient();
+		HttpResponse responsePOST = client.execute(post);
+
+		// You have done. now you can use responsePOST. Get response content as string:
+
+		BufferedReader reader = new BufferedReader(new InputStreamReader(responsePOST.getEntity().getContent()), 2048);
+
+		if (responsePOST != null) {
+			StringBuilder sb = new StringBuilder();
+			String line;
+			while ((line = reader.readLine()) != null) {
+				System.out.println(" line : " + line);
+				sb.append(line);
+			}
+			String getResponseString = "";
+			getResponseString = sb.toString();
+			// use server output getResponseString as string value.
+			System.out.println(getResponseString);
+		}
+	}

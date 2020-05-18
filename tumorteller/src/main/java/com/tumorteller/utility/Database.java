@@ -1,9 +1,7 @@
 package com.tumorteller.utility;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -26,7 +24,7 @@ public class Database {
 
 	private static int databasePort;
 
-	private static String databaseName;
+	public static String databaseName;
 	
 	private static Database databaseInstance;
 
@@ -49,7 +47,6 @@ public class Database {
 	public static Database getInstance(){
         if (databaseInstance == null)  //if there is no instance available... create new one
         	databaseInstance = new Database();
-        
         return databaseInstance;
     }
 	
@@ -91,22 +88,5 @@ public class Database {
 		return mongoClient;
 	}
 
-	// public final static MongoDatabase getDatabase(String dbName) {
-	// // Accessing the database
-	// MongoDatabase database = mongoClient.getDatabase(dbName);
-	// return database;
-	// }
-	//
-	//// public static void main(String[] args) {
-	//// new Database().getConnection();
-	//// }
-	//
-	//
-	// public static MongoCollection<Document> getCollection(String collectionName)
-	// {
-	// return database.getCollection(collectionName);
-	// }
-	//
-	//
 
 }

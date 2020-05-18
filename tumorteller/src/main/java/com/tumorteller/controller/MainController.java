@@ -9,7 +9,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.tumorteller.utility.ApplicationConstants;
-import com.tumorteller.utility.WindowManager;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -34,9 +33,10 @@ public class MainController implements Initializable {
 	private MenuItem manualsMenu;
 
 	protected static Stage mainStage;
-
+	
 	private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
 
+	
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		mainStage = new Stage();
@@ -44,7 +44,7 @@ public class MainController implements Initializable {
 
 	@FXML
 	private void handleAddButton(ActionEvent event) {
-		new WindowManager().displayWindow(AddPatientController.addPatientStage, "add", "add patient");
+//		windowManager.displayWindow(AddPatientController.addPatientStage, "add", "add patient");
 	}
 
 	@FXML
@@ -88,5 +88,12 @@ public class MainController implements Initializable {
 		}
 	}
 	
+	
+//	@FXML
+//	private void handleLogOutButton() {
+//		mainStage.close();
+//		windowManager.displayWindow(new MainLoginController().mainloginStage, "main_login", "sign in");
+//		log.info("Logging out from the system");
+//	}
 	
 }

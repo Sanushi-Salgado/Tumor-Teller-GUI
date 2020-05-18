@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import com.tumorteller.controller.*?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx/11.0.1"
+	fx:controller="com.tumorteller.controller.AboutController">
+	<children>
+		<AnchorPane prefHeight="443.0" prefWidth="491.0"
+			style="-fx-background-color: #362159;">
+			<children>
+				<Label layoutX="179.0" layoutY="138.0" text="Tumor Teller"
+					textFill="WHITE">
+					<font>
+						<Font size="24.0" />
+					</font>
+				</Label>
+				<ImageView fitHeight="72.0" fitWidth="95.0"
+					layoutX="207.0" layoutY="66.0" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@../images/logo.jpg" />
+					</image>
+				</ImageView>
+				<Label fx:id="lblVersion" layoutX="211.0" layoutY="186.0"
+					prefHeight="17.0" text="Version 1.0" prefWidth="76.0" textFill="WHITE">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</Label>
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

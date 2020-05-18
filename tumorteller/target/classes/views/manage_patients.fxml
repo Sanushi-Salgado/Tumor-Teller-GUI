@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import com.tumorteller.controller.*?>
+
+<AnchorPane prefHeight="570.0" prefWidth="680.0"
+	xmlns="http://javafx.com/javafx/11.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.tumorteller.controller.PatientController">
+	<children>
+		<AnchorPane layoutX="1.0" layoutY="2.0" prefHeight="570.0"
+			prefWidth="680.0">
+			<children>
+
+				<Label layoutX="264.0" layoutY="14.0" text="Manage Doctors" />
+
+
+				<!-- <TableView fx:id="tableview" layoutX="28.0" layoutY="139.0" prefHeight="319.0" 
+					prefWidth="557.0" /> -->
+
+
+				<!-- content from counter.fxml included here -->
+				<fx:include fx:id="tableDoctor" source="table.fxml" />
+				<!-- <TableView fx:id="table" layoutX="28.0" layoutY="139.0" prefHeight="345.0" 
+					prefWidth="521.0"> <columns> <TableColumn fx:id="nameCol" prefWidth="75.0" 
+					text="Name" /> <TableColumn fx:id="usernameCol" prefWidth="75.0" text="Username" 
+					/> <TableColumn fx:id="passwordCol" prefWidth="75.0" text="Password" /> </TableView> -->
+
+
+
+
+				<fx:define>
+					<Image fx:id="btnAddImage" url="@../images/add.png" />
+				</fx:define>
+				<Button fx:id="btnAdd" layoutX="33.0" layoutY="52.0"
+					mnemonicParsing="false" onAction="#openAddPatientWindow"
+					prefHeight="63.0" prefWidth="60.0"
+					style="-fx-background-color: blue;">
+					<graphic>
+						<ImageView image="$btnAddImage" />
+					</graphic>
+				</Button>
+
+
+				<fx:define>
+					<Image fx:id="btnDelImage" url="@../images/delete_doctor.png" />
+				</fx:define>
+				<Button fx:id="btnDelete" layoutX="128.0" layoutY="52.0"
+					mnemonicParsing="false" onAction="#deleteDoctor" prefHeight="63.0"
+					prefWidth="60.0" style="-fx-background-color: blue;">
+					<graphic>
+						<ImageView image="$btnDelImage" />
+					</graphic>
+				</Button>
+
+
+				<TextField layoutX="265.0" layoutY="65.0"
+					prefHeight="45.0" prefWidth="273.0" promptText="Search Patient" />
+
+
+				<fx:define>
+					<Image fx:id="btnSearchImage"
+						url="@../images/search_doctor.png" />
+				</fx:define>
+				<Button layoutX="547.0" layoutY="57.0"
+					mnemonicParsing="false" onAction="#searchDoctor" prefHeight="63.0"
+					prefWidth="60.0" style="-fx-background-color: blue;">
+					<graphic>
+						<ImageView image="$btnSearchImage" />
+					</graphic>
+				</Button>
+
+
+				<!-- <ImageView fitHeight="57.0" fitWidth="60.0" layoutX="36.0" layoutY="57.0" 
+					pickOnBounds="true" preserveRatio="true"> <image> <Image url="@../images/add.png" 
+					/> </image> </ImageView> <ImageView fitHeight="63.0" fitWidth="57.0" layoutX="130.0" 
+					layoutY="53.0" pickOnBounds="true" preserveRatio="true"> <image> <Image url="@../images/delete_doctor.png" 
+					/> </image> </ImageView> <ImageView fitHeight="57.0" fitWidth="66.0" layoutX="547.0" 
+					layoutY="59.0" pickOnBounds="true" preserveRatio="true"> <image> <Image url="@../images/search_doctor.png" 
+					/> </image> </ImageView> -->
+
+
+
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

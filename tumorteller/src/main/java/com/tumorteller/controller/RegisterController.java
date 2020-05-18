@@ -6,13 +6,9 @@ import java.util.ResourceBundle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.tumorteller.model.User;
-import com.tumorteller.utility.WindowManager;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
@@ -43,32 +39,29 @@ public class RegisterController implements Initializable {
 	
 	@FXML
     private void handleButtonAction(ActionEvent event) {
-		WindowManager windowManager = new WindowManager();
-		String username = txtUsername.getText().trim();
-		String password = txtPassword.getText().trim();
-		
-		if( username.isEmpty() || password.isEmpty() ) {
-			windowManager.displayAlert(AlertType.ERROR, "Error", "Please fill all the fields");
-			log.info("Received invalid username or password");
-		}
-		else {
-			log.info("Received valid username & password");
-			
-			User user = new User(username, password);
-			
-			// Check if the user is already registered
-			if( !(user.isRegisterd(username)) ) {
-				
-				// Add the new user to the database
-				new User(username, password).addUser(); 
-				
-				registerStage.close();
-				windowManager.displayWindow(LoginController.loginStage, "login", "sign in");
-			}
-			else {
-				windowManager.displayAlert(AlertType.ERROR, "Error", "Username already exists");
-			}	
-		}
+//		String username = txtUsername.getText().trim();
+//		String password = txtPassword.getText().trim();
+//		
+//		if( username.isEmpty() || password.isEmpty() ) {
+//			WindowManager.getInstance().displayAlert(AlertType.ERROR, "Error", "Please fill all the fields");
+//			log.info("Received invalid username or password");
+//		}
+//		else {
+//			log.info("Received valid username & password");
+//			
+//			Doctor user = new Doctor(username, password);
+//			
+//			// Check if the user is already registered
+//			if( !(user.isRegisterd(username)) ) {
+//				
+//				// Add the new user to the database
+//				new Doctor(username, password).addDoctor(); 
+//				WindowManager.getInstance().displayWindow( registerStage, AdminLoginController.adminLoginStage, "login", "sign in" );
+//			}
+//			else {
+//				WindowManager.getInstance().displayAlert( AlertType.ERROR, "Error", "Username already exists" );
+//			}	
+//		}
     }
 
 	
