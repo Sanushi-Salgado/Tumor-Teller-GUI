@@ -25645,3 +25645,10 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2020-05-18 19:27:12 [JavaFX Application Thread] INFO  MainLoginController:64 - Application started
 2020-05-18 19:27:12 [JavaFX Application Thread] INFO  MainLoginController:67 - Loading main login window
 2020-05-18 19:27:16 [JavaFX Application Thread] INFO  WindowManager:49 - Loading admin_login window
+2020-05-20 19:09:07 [main] INFO  RequestHandler:71 - Output from Server .... 
+
+2020-05-20 19:10:41 [main] INFO  RequestHandler:71 - Output from Server .... 
+
+2020-05-20 19:11:49 [main] INFO  RequestHandler:31 - Predicted Iris Class: 2
+2020-05-20 19:11:49 [main] INFO  RequestHandler:73 - Output from Server .... 
+
